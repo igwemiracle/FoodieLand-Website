@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  a {
+    @apply cursor-pointer hover:text-gray-700;
+  }
+  body {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  /* .foodieLogo {
+    @apply ss:w-20;
+  } */
+  /* ================================== */
+  .flex-space-border-b {
+    @apply flex justify-between border-0 border-b border-solid border-gray-200 pb-5;
+  }
+  .text-m-gray {
+    @apply text-gray-500 font-medium text-lg;
+  }
+  .flex-item-c-border-b {
+    @apply flex items-center gap-4 border-b border-solid border-gray-200 pb-7;
+  }
+
+  .input-checkbox {
+    @apply w-6 h-6 appearance-none border-[1px] border-[#DBE2E5] rounded-full checked:bg-black checked:border-black checked:before:content-['✓'] checked:before:text-white checked:before:flex checked:before:items-center checked:before:justify-center;
+  }
+
+  .direction-input-checkbox {
+    @apply h-8 w-[100px] appearance-none border-[1px] border-[#DBE2E5] rounded-[50%];
+  }
+
+  .size {
+    @apply h-64 w-[85%];
+  }
+}

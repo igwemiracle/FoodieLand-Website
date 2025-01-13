@@ -1,0 +1,25 @@
+.break-fast,
+.hold-vegan,
+.hold-meat,
+.hold-dessert,
+.hold-lunch,
+.hold-chocolate {
+  padding: 2rem 4rem;
+  border-radius: 25px;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 45px;
+}
+
+.break-fast p,
+.hold-vegan p,
+.hold-meat p,
+.hold-dessert p,
+.hold-lunch p,
+.hold-chocolate p {
+  font-size: 1rem;
+  font-weight: 500;
+}
