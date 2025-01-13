@@ -1,15 +1,13 @@
-import useFetch from '../../Hooks/useFetch';
 import { images } from '../../assets/images';
 import { icons } from '../../assets/icons';
 import { InstagramIcon, Play } from 'lucide-react';
 import Button from '../../components/Button';
 import CategoryCard from '../../components/CategoryCard';
-import { foodCategories } from '../../constants';
+import { foodCategories, tastyFoodOptions } from '../../constants';
 import TastyRecipe from '../../components/TastyRecipe';
 
 const HomePage = () => {
   // const { data: moreRecipes } = useFetch("http://localhost:8001/moreRecipes");
-  const { data: tastyFoodOptions } = useFetch("http://localhost:8001/tastyFoodOptions");
   // const { data: foodiePostCard } = useFetch("http://localhost:8001/foodieSocialsCard");
 
   return (

@@ -11,8 +11,11 @@ const Footer = () => {
     <footer className={cn(`p-4 text-center bg-white text-black`, isDark && `bg-gray-900 text-white`)}>
       <div className="flex flex-col md:flex-row justify-between w-[90%] mx-auto border-b border-solid border-gray-300 pb-6">
         <div className="flex items-start flex-col gap-4 mb-4 md:mb-0">
-          <Link to={"/"}>
+          {/* <Link to={"/"}>
             <img src={icons.FoodieLand} alt="foodie" />
+          </Link> */}
+          <Link to={"/"} className="font-lobster text-[24px]">
+            Foodieland<span className="text-[orange]">.</span>
           </Link>
           <p className="text-sm md:text-base text-gray-500 dark:text-white">
             Lorem ipsum dolor sit amet, consectetuipisicing elit.

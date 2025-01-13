@@ -42,8 +42,8 @@ const Header = () => {
             <Menu size={35} />
           </button>
           {/* Logo */}
-          <Link to="/">
-            <img className="foodieLogo" src={icons.FoodieLand} alt="foodie" />
+          <Link to={"/"} className="font-lobster text-[24px]">
+            Foodieland<span className="text-[orange]">.</span>
           </Link>
         </div>
 
