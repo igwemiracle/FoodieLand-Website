@@ -27,12 +27,8 @@ const IsMobileDev = ({ isMenuOpen, closeMenu }) => {
     >
       <div>
         <div className="flex justify-between">
-          <Link to="/" onClick={closeMenu}>
-            <img
-              className="w-44 ss:w-24 sm:w-40"
-              src={icons.FoodieLand}
-              alt="FoodieLand Logo"
-            />
+          <Link to={"/"} onClick={closeMenu} className="font-lobster text-[24px]">
+            Foodieland<span className="text-[orange]">.</span>
           </Link>
           <div>
             <X size={30} className="ss:text-[96px] cursor-pointer" onClick={closeMenu} />

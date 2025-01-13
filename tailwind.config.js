@@ -14,7 +14,7 @@ module.exports = {
     extend: {
       screens: {
         xs: '480px', // Custom smaller breakpoint
-        ss: '375px', // For ultra-small screens (optional)
+        ss: '374px', // For ultra-small screens (optional)
         lg: '1200px', // Adjusted large breakpoint
         xxl: '1700px' // Extra large breakpoint
       },

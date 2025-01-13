@@ -1,3 +1,5 @@
+import { images } from "../assets/images";
+
 export const navLinks = [
   {
     id: "home_id",
@@ -71,61 +73,62 @@ export const foodCategories = [
   },
 ];
 
+
 export const tastyFoodOptions = [
   {
-    TastyImage: "../src/assets/images/hamburger.jpg",
+    TastyImage: images.hamburger,
     isLiked: true,
     description: "Big and Juicy Wagyu Beef Cheeseburger",
     clock: "Timer.svg",
     fork: "ForkKnife.svg"
   },
   {
-    TastyImage: "../src/assets/images/fish.jpg",
+    TastyImage: images.fish,
     isLiked: false,
     description: "Fresh Lime Roasted Salmon with Ginger Sauce",
     clock: "Timer.svg",
     fork: "ForkKnife.svg"
   },
   {
-    TastyImage: "../src/assets/images/straw.jpg",
+    TastyImage: images.straw,
     isLiked: false,
     description: "Strawberry Oatmeal Pancake with Honey Syrup",
     clock: "Timer.svg",
     fork: "ForkKnife.svg"
   },
   {
-    TastyImage: "../src/assets/images/mayonnaise.jpg",
+    TastyImage: images.mayonnasie,
     isLiked: true,
     description: "Fresh and Healthy Mixed Mayonnaise Salad",
     clock: "Timer.svg",
     fork: "ForkKnife.svg"
   },
   {
-    TastyImage: "../src/assets/images/meatBall.jpg",
+    TastyImage: images.meatBall,
     isLiked: false,
     description: "Chicken Meatballs with Cream Cheese",
     clock: "Timer.svg",
     fork: "ForkKnife.svg"
   },
   {
-    TastyImage: "../src/assets/images/Ads.png"
+    TastyImage: images.ads
   },
   {
-    TastyImage: "../src/assets/images/orangeFruit.jpg",
+    TastyImage: images.orangeFruit,
     isLiked: true,
     description: "Fruity Pancake with Orange & Blueberry",
     clock: "Timer.svg",
     fork: "ForkKnife.svg"
   },
   {
-    TastyImage: "../src/assets/images/rice-fish.jpg",
+    TastyImage: images.riceFish,
     isLiked: false,
     description: "The Best Easy One Pot Chicken and Rice",
     clock: "Timer.svg",
     fork: "ForkKnife.svg"
   },
   {
-    TastyImage: "../src/assets/images/spag.jpg",
+    TastyImage: images.spag,
     isLiked: false,
     description: "The Creamiest Creamy Chicken and Bacon Pasta",
     clock: "Timer.svg",
