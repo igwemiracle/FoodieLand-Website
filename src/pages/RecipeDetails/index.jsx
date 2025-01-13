@@ -1,9 +1,8 @@
 import { images } from '../../assets/images';
 import { icons } from '../../assets/icons';
-import Subscribe from "../../components/Subscribe/subscribe";
+import Subscribe from '../../components/SubscribeCard';
 import AsideFoodieRecipe from '../../components/AsideFoodRecipe';
-import CheckboxList from '../../components/CheckBoxList';
-
+import CheckBoxList from '../../components/CheckBoxList';
 
 const RecipeDetails = () => {
   const mainDishItems = ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet",
@@ -106,8 +105,8 @@ const RecipeDetails = () => {
         <div className="basis-[65%] flex flex-col gap-10">
           <h1 className="text-4xl font-semibold">Ingredients</h1>
 
-          <CheckboxList checkboxItems={mainDishItems} title="For main dish" />
-          <CheckboxList checkboxItems={forSauce} title="For the sauce" />
+          <CheckBoxList checkboxItems={mainDishItems} title="For main dish" />
+          <CheckBoxList checkboxItems={forSauce} title="For the sauce" />
 
           <form className="flex flex-col gap-8 mt-[8.5rem]">
             <p className="text-4xl font-semibold">Directions</p>

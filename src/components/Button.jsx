@@ -1,5 +1,4 @@
-import { cn } from "../../utils"
-
+import { cn } from "../utils"
 const Button = ({ children, icon: Icon, variant = "primary", className }) => {
   const primary = variant === "primary" && "bg-black text-white text-sm font-semibold"
   const secondary = variant === "secondary" && "bg-foodie-blue text-black"

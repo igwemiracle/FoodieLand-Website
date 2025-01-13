@@ -1,11 +1,11 @@
 import { useContext, useEffect } from "react";
-import { ThemeContext } from "../../contexts/ThemeContext";
-import { cn } from "../../utils";
+import { ThemeContext } from "../contexts/ThemeContext";
+import { cn } from "../utils";
 import { X } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
-import { icons } from "../../assets/icons";
-import SocialIcons from "../SocialIcons";
-import { navLinks } from "../../constants";
+import { icons } from "../assets/icons";
+import SocialIcons from "./SocialIcons";
+import { navLinks } from "../constants";
 
 
 const IsMobileDev = ({ isMenuOpen, closeMenu }) => {

@@ -1,6 +1,6 @@
 import React from "react";
 
-const CheckboxList = ({ checkboxItems, title }) => {
+const CheckBoxList = ({ checkboxItems, title }) => {
   return (
     <form className="flex flex-col gap-8">
       <p className="text-2xl font-semibold">{title}</p>
@@ -16,4 +16,4 @@ const CheckboxList = ({ checkboxItems, title }) => {
   );
 };
 
-export default CheckboxList;
+export default CheckBoxList;

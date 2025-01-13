@@ -1,5 +1,5 @@
-import { images } from "../../assets/images";
-import Button from "../Button/Button";
+import { images } from "../assets/images";
+import Button from "./Button";
 
 const Subscribe = () => {
   return (

@@ -1,19 +1,16 @@
 import useFetch from '../../Hooks/useFetch';
 import { images } from '../../assets/images';
 import { icons } from '../../assets/icons';
-import PostCard from "../../components/PostCardBody/PostCard";
-import TastyRecipe from '../../components/TastyRecipe/TastyRecipe'
-import MoreRecipes from '../../components/MoreRecipes/MoreRecipes';
 import { InstagramIcon, Play } from 'lucide-react';
-import Button from '../../components/Button/Button';
-import Subscribe from '../../components/Subscribe/subscribe';
+import Button from '../../components/Button';
 import CategoryCard from '../../components/CategoryCard';
 import { foodCategories } from '../../constants';
+import TastyRecipe from '../../components/TastyRecipe';
 
 const HomePage = () => {
-  const { data: moreRecipes } = useFetch("http://localhost:8001/moreRecipes");
+  // const { data: moreRecipes } = useFetch("http://localhost:8001/moreRecipes");
   const { data: tastyFoodOptions } = useFetch("http://localhost:8001/tastyFoodOptions");
-  const { data: foodiePostCard } = useFetch("http://localhost:8001/foodieSocialsCard");
+  // const { data: foodiePostCard } = useFetch("http://localhost:8001/foodieSocialsCard");
 
   return (
     <div className='grid place-items-center'>
@@ -82,7 +79,6 @@ const HomePage = () => {
       </section>
 
       {/* Tasty Recipe section */}
-      {/* <section className='grid place-items-center items-center mb-48 w-[90%]'> */}
       <section className='flex flex-col items-center justify-center w-[90%]'>
         <h1 className='font-semibold ss:text-2xl sm:text-4xl mb-4 '>
           Simple and tasty recipes
@@ -93,7 +89,6 @@ const HomePage = () => {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed praesentium ea nostrum
           blanditiis neque ut iusto, totam at distinctio, vero fuga
         </p>
-        {/* <div className='grid ss:place-items-center ss:grid-cols-1 sm:pl-0 sm:grid-cols-2 lg:grid-cols-3  mx-auto w-[90%] gap-x-12'> */}
         <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-x-[48px] gap-y-[8]'>
           {tastyFoodOptions.map((tastyFood, index) => (
             <TastyRecipe key={index} tasty={tastyFood} />

@@ -1,7 +1,7 @@
 import { FacebookIcon, TwitterIcon, InstagramIcon } from 'lucide-react';
-import { cn } from '../../utils';
+import { cn } from '../utils';
 import { useContext } from 'react';
-import { ThemeContext } from '../../contexts/ThemeContext';
+import { ThemeContext } from '../contexts/ThemeContext';
 
 const SocialIcons = ({ className }) => {
   const { isDark } = useContext(ThemeContext);
