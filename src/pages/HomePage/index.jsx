@@ -7,14 +7,11 @@ import { foodCategories, tastyFoodOptions } from '../../constants';
 import TastyRecipe from '../../components/TastyRecipe';
 
 const HomePage = () => {
-  // const { data: moreRecipes } = useFetch("http://localhost:8001/moreRecipes");
-  // const { data: foodiePostCard } = useFetch("http://localhost:8001/foodieSocialsCard");
-
   return (
     <div className='grid place-items-center'>
       <section className='flex flex-col w-[90%] mx-auto my-32 rounded-[4rem] overflow-hidden lg:flex-row  xs:flex-col '>
         <div className='basis-2/4 flex-1 flex flex-col bg-foodie-blue p-14 gap-8 '>
-          <div className='flex items-center rounded-3xl gap-3 bg-white max-w-44 py-2 px-6'>
+          <div className='flex items-center rounded-3xl gap-3 bg-white max-w-44 py-2 px-6 whitespace-nowrap'>
             <span className='text-2xl'>📜</span>
             Hot Recipes
           </div>
