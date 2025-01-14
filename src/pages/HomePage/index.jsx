@@ -10,13 +10,13 @@ const HomePage = () => {
   return (
     <div className='grid place-items-center'>
       <section className='flex flex-col w-[90%] mx-auto my-32 rounded-[4rem] overflow-hidden lg:flex-row  xs:flex-col '>
-        <div className='basis-2/4 flex-1 flex flex-col bg-foodie-blue p-14 gap-8 '>
+        <div className='basis-2/4 flex-1 flex flex-col bg-foodie-blue ss:px-7 ss:py-12 m:sp-14 gap-8 '>
           <div className='flex items-center rounded-3xl gap-3 bg-white max-w-44 py-2 px-6 whitespace-nowrap'>
             <span className='text-2xl'>📜</span>
             Hot Recipes
           </div>
-          <h1 className='ss:text-[30px] ss:leading-[40px] sm:text-[69px] sm:leading-[77px] font-semibold'>Spicy delicious chicken wings</h1>
-          <p className='text-[14px] leading-6 lg:leading-7 text-gray-500'>
+          <h1 className='ss:text-[24px] ss:leading-[30px] sm:text-[69px] sm:leading-[77px] font-semibold'>Spicy delicious chicken wings</h1>
+          <p className='ss:text-[12px] ss:leading-5 sm:text-[14px] sm:leading-6 lg:leading-7 text-gray-500'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat deserunt euismod laboriosam cumque.
             Molestias, omnis, amet aliquam fugit rem at eaque expedita minim</p>
           <div className="lg:flex-row flex flex-col gap-5">
@@ -58,7 +58,7 @@ const HomePage = () => {
       <section className='w-[90%] flex flex-col gap-14 mx-auto mb-48'>
         <div className='flex justify-between items-center'>
           <h1 className='sm:text-4xl font-semibold ss:text-2xl'>Categories</h1>
-          <Button variant='secondary' className={`min-w-[5px] ss:text-[10px] ss:py-4 ss:px-7 sm:py-5 sm:px-10 sm:text-[16px]`}> View All Categories </Button>
+          <Button variant='secondary' className={` min-w-[5px] ss:text-[10px] ss:py-4 ss:px-7 sm:py-5 sm:px-10 sm:text-[16px]`}> View All Categories </Button>
         </div>
         <div className='grid lg:grid-cols-6 justify-center place-items-center sm:grid-cols-3 sm:gap-y-4 ss:grid-cols-2 '>
           {foodCategories.map((category) => (
@@ -84,7 +84,7 @@ const HomePage = () => {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed praesentium ea nostrum
           blanditiis neque ut iusto, totam at distinctio, vero fuga
         </p>
-        <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-x-[48px] gap-y-[8]'>
+        <div className='grid ss:grid-cols-2 ss:gap-x-[14px] sm:gap-x-[30px] sm:grid-cols-2 lg:grid-cols-3 gap-x-[48px]'>
           {tastyFoodOptions.map((tastyFood, index) => (
             <TastyRecipe key={index} tasty={tastyFood} />
           ))}
