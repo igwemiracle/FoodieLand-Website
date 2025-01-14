@@ -111,7 +111,11 @@ export const tastyFoodOptions = [
     fork: "ForkKnife.svg"
   },
   {
-    TastyImage: images.ads
+    TastyImage: images.maaria,
+    isLiked: true,
+    description: "Asparagus with Lemon Garlic Butter",
+    clock: "Timer.svg",
+    fork: "ForkKnife.svg"
   },
   {
     TastyImage: images.orangeFruit,

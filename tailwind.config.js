@@ -19,7 +19,9 @@ module.exports = {
         xxl: '1700px' // Extra large breakpoint
       },
       colors: {
-        'foodie-blue': '#e7fafe' // Custom blue color
+        'foodie-blue': '#e7fafe', // Custom blue color
+        'foodie-dim-blue': '#dbedf1',
+
       },
       filter: {
         white: 'invert(1)', // Example custom filter
