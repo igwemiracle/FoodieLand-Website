@@ -6,7 +6,7 @@ const Button = ({ children, icon: Icon, variant = "primary", className }) => {
   const danger = variant === "danger" && "bg-red-500 text-white"
   return (
     <button
-      className={cn(`font-semibold py-5 px-10 rounded-xl border-none flex items-center justify-center gap-4 ${className}`,
+      className={cn(`whitespace-nowrap font-semibold py-5 px-10 rounded-xl border-none flex items-center justify-center gap-4 ${className}`,
         primary, secondary, danger, tertiary
       )}
     >
