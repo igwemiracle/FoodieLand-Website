@@ -37,22 +37,22 @@ module.exports = {
     plugin(function ({ addUtilities }) {
       addUtilities({
         '.text-shadow-gray': {
-          'text-shadow': '9px 8px 15px rgba(161, 160, 160, 0.85)',
+          'box-shadow': '9px 8px 15px rgba(161, 160, 160, 0.85)',
         },
         '.text-shadow-green': {
-          'text-shadow': '15px 8px 15px rgba(170, 200, 170, 0.937)',
+          'box-shadow': '15px 8px 15px rgba(170, 200, 170, 0.937)',
         },
         '.text-shadow-pink': {
-          'text-shadow': '15px 8px 15px rgba(236, 173, 165, 0.937)',
+          'box-shadow': '15px 8px 15px rgba(236, 173, 165, 0.937)',
         },
         '.text-shadow-yellow-light': {
-          'text-shadow': '15px 8px 15px rgba(235, 233, 195, 0.937)',
+          'box-shadow': '15px 8px 15px rgba(235, 233, 195, 0.937)',
         },
         '.text-shadow-yellow-dark': {
-          'text-shadow': '15px 8px 15px rgba(228, 219, 169, 0.937)',
+          'box-shadow': '15px 8px 15px rgba(228, 219, 169, 0.937)',
         },
         '.text-shadow-peach': {
-          'text-shadow': '15px 15px 10px rgba(251, 213, 207, 0.937)',
+          'box-shadow': '15px 15px 10px rgba(251, 213, 207, 0.937)',
         },
       });
     }),

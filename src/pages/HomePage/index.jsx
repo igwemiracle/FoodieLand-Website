@@ -12,12 +12,15 @@ const HomePage = () => {
       <section className='flex flex-col w-[90%] rounded-[4rem] mx-auto my-32 overflow-hidden lg:flex-row'>
         <div className='basis-2/4 flex-1 flex flex-col bg-foodie-blue ss:px-6 ss:py-12 sm:p-14 gap-8 '>
           <p className='flexCenter buttonWidthHeight gap-3 bg-white rounded-3xl whitespace-nowrap  ss:text-xs ss:py-2 sm:text-[16px] sm:py-4'>
-            <span className='ss:text-[18px] sm:text-[24px]'>📜</span>Hot Recipes
+            <span className='ss:text-[18px] sm:text-[24px]'>
+              <img src={images.menu} className='ss:w-5 ss:h-5 lg:w-[24px] lg:h-[24px]' alt="show-menu" />
+            </span>Hot Recipes
           </p>
           <h1 className='ss:text-[26px] ss:leading-[35px] sm:text-[50px] sm:leading-[70px] lg:text-[69px] font-semibold'>
             Spicy delicious chicken wings
           </h1>
-          <p className='paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat deserunt euismod
+          <p className='paragraph'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat deserunt euismod
             laboriosam cumque.Molestias, omnis, amet aliquam fugit rem at eaque expedita minim
           </p>
           <div className="flex flex-col lg:flex-row gap-5">
@@ -39,7 +42,7 @@ const HomePage = () => {
               </div>
             </div>
             <div>
-              <Button className={`ss:text-xs sm:text-[16px]`} icon={<Play className='rounded-[50%] bg-white h-5 w-5 p-1' fill="black" />}>
+              <Button className={``} icon={<Play className='rounded-[50%] bg-white ss:h-[18px] ss:w-[18px] lg:h-5 lg:w-5 p-1' fill="black" />}>
                 View Recipes
               </Button>
             </div>
@@ -48,7 +51,7 @@ const HomePage = () => {
 
         <div className="basis-2/4 relative w-full">
           <img
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover ss:rotate-90 ss:scale-110 sm:rotate-0"
             src={images.foodie}
             alt="foodie"
           />
@@ -57,27 +60,24 @@ const HomePage = () => {
       </section>
 
       {/* Category section */}
-      <section className='w-[90%] flex flex-col gap-14 mx-auto mb-48'>
+      <section className='w-[90%] flex flex-col gap-20 mx-auto mb-48'>
         <div className='flexCenterBetween'>
-          <h1 className='ss:text-xl sm:text-4xl font-semibold '>Categories</h1>
-          <Button variant='secondary' className={` min-w-[5px] ss:text-[9px] ss:py-3 ss:px-7 sm:py-5 sm:px-10 sm:text-[16px]`}> View All Categories </Button>
+          <h1 className='heading1'>Categories</h1>
+          <Button variant='secondary' className={`min-w-[5px] ss:text-[9px] ss:py-3 ss:px-7 sm:py-5 sm:px-10 sm:text-[16px]`}> View All Categories </Button>
         </div>
-        <div className='gridCenter lg:grid-cols-6 justify-center  sm:grid-cols-3 sm:gap-y-4 ss:grid-cols-2 '>
+        <div className='grid lg:grid-cols-6 ss:grid-cols-2 ss:gap-y-10 ss:place-items-center sm:grid-cols-3'>
           {foodCategories.map((category) => (
             <CategoryCard
               key={category.id}
-              gradient={category.gradient}
-              textShadowClass={category.textShadowClass}
               emoji={category.emoji}
-              label={category.label}
             />
           ))}
         </div>
       </section>
 
       {/* Tasty Recipe section */}
-      <section className='flexCenter flex-col w-[90%]'>
-        <h1 className='ss:text-xl sm:text-4xl font-semibold mb-4'>
+      <section className='flexCenter flex-col w-[90%] mb-28'>
+        <h1 className='heading1 mb-4'>
           Simple and tasty recipes
         </h1>
         <p className="paragraph text-center  max-w-[706px] mb-28">
@@ -90,8 +90,27 @@ const HomePage = () => {
           ))}
         </div>
       </section>
-    </div>
+
+      {/* Learn more section */}
+      <section className="w-[90%] h-auto flex ss:flex-col ss:items-start lg:flex-row lg:items-end mb-40">
+        <div className="basis-[40%] flex flex-col lg:gap-[8rem] lg:mb-32 ss:gap-16 ss:mb-8  ">
+          <div className='flex flex-col gap-4'>
+            <h1 className='heading1'>
+              Everyone can be a <br />chef in their own kitchen</h1>
+            <p className='paragraph lg:w-[500px] ss:w-[220px]  sm:w-96'>
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore tempor incididunt ut labore et dolore magna ad ad minim
+            </p>
+          </div>
+          <div className="">
+            <Button className="sm:w-32 lg:w-40">Learn More</Button>
+          </div>
+        </div>
+
+        <div className='basis-[60%]'>
+          <img className=" object-cover" src={images.maleChef} alt="not-showing" />
+        </div>
+      </section >
+    </div >
   );
 }
-
 export default HomePage;

@@ -8,9 +8,9 @@ const SocialIcons = ({ className }) => {
 
   return (
     <div className="flex gap-8">
-      <FacebookIcon className={cn("text-black fill-black", isDark && "text-white", className)} />
-      <TwitterIcon className={cn("text-black fill-black", isDark && "text-white", className)} />
-      <InstagramIcon className={cn("text-black", isDark && "text-white", className)} />
+      <FacebookIcon className={cn("text-black fill-black ss:w-4 ss:h-4 lg:w-[24px] lg:h-[24px]", isDark && "text-white", className)} />
+      <TwitterIcon className={cn("text-black fill-black ss:w-4 ss:h-4 lg:w-[24px] lg:h-[24px]", isDark && "text-white", className)} />
+      <InstagramIcon className={cn("text-black ss:w-4 ss:h-4 lg:w-[24px] lg:h-[24px]", isDark && "text-white", className)} />
     </div>
   );
 };

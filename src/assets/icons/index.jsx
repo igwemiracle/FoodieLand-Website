@@ -18,7 +18,8 @@ import print from './printer.svg'
 import hotRecipe from './hotRecipe.svg'
 import Foodieland from './Foodieland.svg'
 
+
 export const icons = {
-  insta, comment, verify, profile, more, save, love,
-  messenger, heart, Oval, fork, timer, smith, badge, grayLove, share, print, hotRecipe, Foodieland
-};
+  insta, comment, verify, profile, more, save, love, messenger, heart, Oval, fork, timer, smith, badge, grayLove, share,
+  hotRecipe, Foodieland, print
+}

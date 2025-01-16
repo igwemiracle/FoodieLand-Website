@@ -1,5 +1,6 @@
 import { images } from "../assets/images";
 
+
 export const navLinks = [
   {
     id: "home_id",
@@ -30,46 +31,28 @@ export const navLinks = [
 
 export const foodCategories = [
   {
-    id: 'breakfast',
-    gradient: 'from-[#F3F4EF] to-[#FFFFFF]',
-    textShadowClass: 'text-shadow-gray',
-    emoji: '🍙',
-    label: 'Breakfast',
+    id: 'breakfast_id',
+    emoji: images.breakfast,
   },
   {
-    id: 'vegan',
-    gradient: 'from-[#F4FBF0] to-[#FFFFFF]',
-    textShadowClass: 'text-shadow-green',
-    emoji: '🥬',
-    label: 'Vegan',
+    id: 'vegan_id',
+    emoji: images.vegan,
   },
   {
-    id: 'meat',
-    gradient: 'from-[#FBEDEC] to-[#FFFFFF]',
-    textShadowClass: 'text-shadow-pink',
-    emoji: '🥩',
-    label: 'Meat',
+    id: 'meat_id',
+    emoji: images.beefmeat,
   },
   {
-    id: 'dessert',
-    gradient: 'from-[#FEF7EB] to-[#FFFFFF]',
-    textShadowClass: 'text-shadow-yellow-light',
-    emoji: '🍰',
-    label: 'Dessert',
+    id: 'dessert_id',
+    emoji: images.dessert,
   },
   {
-    id: 'lunch',
-    gradient: 'from-[#F4F4F4] to-[#FFFFFF]',
-    textShadowClass: 'text-shadow-yellow-dark',
-    emoji: '🥪',
-    label: 'Lunch',
+    id: 'lunch_id',
+    emoji: images.lunch,
   },
   {
-    id: 'chocolate',
-    gradient: 'from-[#F4F4F4] to-[#FFFFFF]',
-    textShadowClass: 'text-shadow-peach',
-    emoji: '🍫',
-    label: 'Chocolate',
+    id: 'chocolate_id',
+    emoji: images.chocolate,
   },
 ];
 

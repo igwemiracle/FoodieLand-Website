@@ -32,11 +32,18 @@ import strawberry from './strawberry.png'
 import tacoMeat from './taco-meat.png'
 import vegetables from './vegetables.png'
 import wagyuBeef from './wagyu-beef.png'
+import breakfast from './breakfast.png'
+import vegan from './vegan.png'
+import beefmeat from './beefmeat.png'
+import dessert from './dessert.png'
+import lunch from './lunch.png'
+import chocolate from './chocolate.png'
+import menu from './menu.png'
 
 
 export const images = {
   ads, asparagus, chef_thumbs_up, chicken_meatball, creamie, egg, femaleChef,
   firecracker, fish, foodie, fruitSalad, hamburger, salad, leftImg, rightImg, maaria, maleChef,
   mayonnasie, meat, meatBall, mustard, onions, orangeFruit, playMeal, riceFish, rucola, sandwich, soup, spag,
-  straw, strawberry, tacoMeat, vegetables, wagyuBeef
+  straw, strawberry, tacoMeat, vegetables, wagyuBeef, breakfast, vegan, beefmeat, dessert, lunch, chocolate, menu
 };
