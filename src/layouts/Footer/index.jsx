@@ -15,7 +15,7 @@ const Footer = () => {
           <Link to={"/"} className="font-lobster ss:text-base sm:text-[28px]">
             Foodieland<span className="text-[orange]">.</span>
           </Link>
-          <p className="text-sm sm:text-base text-gray-500 dark:text-white">
+          <p className="text-gray-500 paragraph">
             Lorem ipsum dolor sit amet, consectetuipisicing elit.
           </p>
         </div>
