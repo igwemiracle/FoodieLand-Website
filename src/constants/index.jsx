@@ -130,11 +130,12 @@ export const foodieSocialsCard = [
     likes: "44,686",
     date: "September 19",
     images: [
-      "../src/assets/images/vegetables.jpg",
-      "../src/assets/images/onions.jpg",
-      "../src/assets/images/strawberry.jpg"
+      images.vegetables,
+      images.onions,
+      images.strawberry
     ],
     description: "The vegetables dishes need to have certain vitamins for those people"
+
   },
   {
     name: "Foodieland.",
@@ -142,9 +143,9 @@ export const foodieSocialsCard = [
     likes: "44,686",
     date: "September 19",
     images: [
-      "../src/assets/images/strawberry.jpg",
-      "../src/assets/images/meat.jpg",
-      "../src/assets/images/onions.jpg"
+      images.strawberry,
+      images.meat,
+      images.onions
     ],
     description: "Sweet food can bring someone into happiness as long as they don't eat too much"
   },
@@ -154,9 +155,9 @@ export const foodieSocialsCard = [
     likes: "44,686",
     date: "September 19",
     images: [
-      "../src/assets/images/onions.jpg",
-      "../src/assets/images/vegetables.jpg",
-      "../src/assets/images/meat.jpg"
+      images.onions,
+      images.vegetables,
+      images.meat
     ],
     description: " What are you doing before start cooking? prepare the tools or ingredients?"
   },
@@ -166,9 +167,9 @@ export const foodieSocialsCard = [
     likes: "44,686",
     date: "September 19",
     images: [
-      "../src/assets/images/meat.jpg",
-      "../src/assets/images/strawberry.jpg",
-      "../src/assets/images/vegetables.jpg"
+      images.meat,
+      images.strawberry,
+      images.vegetables
     ],
     description: "Steak never be wrong, it's suitable for you who want romatic dinner"
   }

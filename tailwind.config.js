@@ -52,7 +52,7 @@ module.exports = {
           'box-shadow': '15px 8px 15px rgba(228, 219, 169, 0.937)',
         },
         '.text-shadow-peach': {
-          'box-shadow': '15px 15px 10px rgba(251, 213, 207, 0.937)',
+          'b-shadow': '15px 15px 10px rgba(251, 213, 207, 0.937)',
         },
       });
     }),

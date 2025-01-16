@@ -3,8 +3,9 @@ import { icons } from '../../assets/icons';
 import { InstagramIcon, Play } from 'lucide-react';
 import Button from '../../components/Button';
 import CategoryCard from '../../components/CategoryCard';
-import { foodCategories, tastyFoodOptions } from '../../constants';
+import { foodCategories, foodieSocialsCard, tastyFoodOptions } from '../../constants';
 import TastyRecipe from '../../components/TastyRecipe';
+import PostCard from '../../components/PostCardBody/PostCard';
 
 const HomePage = () => {
   return (
@@ -110,6 +111,25 @@ const HomePage = () => {
           <img className=" object-cover" src={images.maleChef} alt="not-showing" />
         </div>
       </section >
+
+      {/* Foodie socials section */}
+      <section className="
+      w-full flex flex-col items-center justify-center gap-8 bg-gradient-to-t from-primary to-base mx-auto">
+        <h1 className='heading1 ss:text-center'>Check out @foodieland on Instagram</h1>
+        <p className='paragraph text-center font-normal lg:w-[890px]  mb-4'>
+          Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim enim ad minim </p>
+        <div className="w-[90%] grid ss:grid-cols-2 ss:gap-y-8 sm:gap-y-14 lg:grid-cols-4 gap-6">
+          {foodieSocialsCard.map((post, index) => (
+            <PostCard key={index} post={post} />
+          ))}
+        </div>
+        <div className='my-16'>
+          <Button icon={<InstagramIcon />}>
+            Visit Our Instagram
+          </Button>
+        </div>
+      </section>
+      {/* ss:text-[10px] ss:leading-4 sm:text-[18px] sm:leading-8 lg:text-[15px] lg:leading-6 text-gray-500 */}
     </div >
   );
 }

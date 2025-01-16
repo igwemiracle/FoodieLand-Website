@@ -34,7 +34,7 @@
   }
 
   .heading1 {
-    @apply ss:text-xl ss:leading-6 sm:text-4xl sm:leading-[42px] lg:text-5xl lg:leading-[58px] font-semibold
+    @apply ss:text-xl ss:leading-6 sm:text-4xl sm:leading-[42px] lg:text-5xl lg:leading-[58px] font-semibold;
   }
 
   .buttonWidthHeight {
