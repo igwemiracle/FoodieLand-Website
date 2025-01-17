@@ -93,7 +93,7 @@ const HomePage = () => {
       </section>
 
       {/* Learn more section */}
-      <section className="w-[90%] h-auto flex ss:flex-col ss:items-start lg:flex-row lg:items-end mb-40">
+      <section className="w-[90%] h-auto flex ss:flex-col ss:items-start lg:flex-row lg:items-end mb-32">
         <div className="basis-[40%] flex flex-col lg:gap-[8rem] lg:mb-32 ss:gap-16 ss:mb-8  ">
           <div className='flex flex-col gap-4'>
             <h1 className='heading1'>
@@ -113,18 +113,17 @@ const HomePage = () => {
       </section >
 
       {/* Foodie socials section */}
-      <section className="
-      w-full flex flex-col items-center justify-center gap-8 bg-gradient-to-t from-primary to-base mx-auto">
+      <section className="w-full flexCenter flex-col gap-6 bg-foodie-gradient mx-auto">
         <h1 className='heading1 ss:text-center'>Check out @foodieland on Instagram</h1>
-        <p className='paragraph text-center font-normal lg:w-[890px]  mb-4'>
-          Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim enim ad minim </p>
+        <p className='paragraph text-center font-normal lg:w-[890px] mb-4'>
+          Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim enim ad labore et dolore magna minim</p>
         <div className="w-[90%] grid ss:grid-cols-2 ss:gap-y-8 sm:gap-y-14 lg:grid-cols-4 gap-6">
           {foodieSocialsCard.map((post, index) => (
             <PostCard key={index} post={post} />
           ))}
         </div>
         <div className='my-16'>
-          <Button icon={<InstagramIcon />}>
+          <Button className="" icon={<InstagramIcon />}>
             Visit Our Instagram
           </Button>
         </div>

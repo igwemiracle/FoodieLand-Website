@@ -2,13 +2,13 @@ import { icons } from '../../assets/icons'
 
 const PostFooter = ({ likes, profileIcon, description, date, currentSlide, setCurrentSlide }) => {
   return (
-    <div className="flex flex-col gap-3 bg-[#FFFFFF] sm:p-3 ss:p-1">
+    <div className="flex flex-col gap-3 bg-custom-white sm:p-3 ss:p-1">
 
       <div className="flex justify-between items-center">
         <div className="flex items-center justify-center gap-4 ss:gap-2">
-          <img className='ss:w-[12px] ss:h-[12px] sm:w-[28px] sm:h-[28px]' src={icons.heart} alt="heart" width="28" height="28" />
-          <img className='ss:w-[12px] ss:h-[12px] sm:w-[28px] sm:h-[28px]' src={icons.comment} alt="comment" width="24" height="24" />
-          <img className='ss:w-[12px] ss:h-[12px] sm:w-[28px] sm:h-[28px]' src={icons.messenger} alt="messenger" width="24" height="24" />
+          <img className='ss:w-[12px] ss:h-[12px] sm:w-[26px] sm:h-[26px]' src={icons.heart} alt="heart" />
+          <img className='ss:w-[12px] ss:h-[12px] sm:w-[26px] sm:h-[26px]' src={icons.comment} alt="comment" />
+          <img className='ss:w-[12px] ss:h-[12px] sm:w-[26px] sm:h-[26px]' src={icons.messenger} alt="messenger" />
         </div>
 
         {/* Dots Container */}

@@ -63,3 +63,13 @@
     @apply h-64 w-[85%];
   }
 }
+
+@layer utilities {
+  .bg-foodie-gradient {
+    @apply bg-gradient-to-t from-foodie-blue to-custom-white;
+  }
+
+  .bg-db-gradient {
+    @apply bg-gradient-to-t from-[#dbedf1];
+  }
+}

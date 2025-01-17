@@ -6,7 +6,7 @@ const TastyRecipe = ({ tasty }) => {
 
     <div className="w-full mb-14 last:mb-0">
       {/* Check if description exists to determine styling */}
-      <div className="ss:min-w-[8.4rem] ss:px-[7px] sm:px-[17px] pb-4 relative rounded-[20px] bg-gradient-to-t from-[#dbedf1] to-base">
+      <div className="ss:min-w-[8.4rem] ss:px-[7px] sm:px-[17px] pb-4 relative rounded-[20px] bg-db-gradient to-base">
         {/* Image */}
         <img className="rounded-[15px] object-cover" src={tasty.TastyImage} alt="not-showing" />
         <img className="ss:w-5 ss:h-5 sm:w-[48px] sm:h-[48px] absolute top-[10%] right-[9%]" src={tasty.isLiked ? icons.love : icons.grayLove} alt="love" />

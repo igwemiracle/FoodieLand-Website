@@ -1,5 +1,5 @@
 const PostHeader = ({ profileImg, name, location, verifiedIcon, moreIcon }) => (
-  <div className="flex justify-between items-center  ss:p-1 sm:p-3">
+  <div className="flex justify-between items-center bg-custom-white  ss:p-1 sm:p-3">
     <div className="flex items-start ">
 
       <div className="flex gap-1">

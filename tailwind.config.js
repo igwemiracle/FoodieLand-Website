@@ -13,7 +13,6 @@ module.exports = {
     },
     extend: {
       screens: {
-        // xs: '480px',
         ss: '303px', // For ultra-small screens (optional)
         lg: '1200px', // Adjusted large breakpoint
         xxl: '1700px' // Extra large breakpoint
@@ -21,6 +20,8 @@ module.exports = {
       colors: {
         'foodie-blue': '#e7fafe', // Custom blue color
         'foodie-dim-blue': '#dbedf1',
+        'dark-gray': '#48494A',
+        'custom-white': '#FFFFFF'
 
       },
       filter: {
@@ -52,7 +53,7 @@ module.exports = {
           'box-shadow': '15px 8px 15px rgba(228, 219, 169, 0.937)',
         },
         '.text-shadow-peach': {
-          'b-shadow': '15px 15px 10px rgba(251, 213, 207, 0.937)',
+          'box-shadow': '15px 15px 10px rgba(251, 213, 207, 0.937)',
         },
       });
     }),
