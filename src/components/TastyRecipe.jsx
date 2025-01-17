@@ -9,11 +9,10 @@ const TastyRecipe = ({ tasty }) => {
       <div className="ss:min-w-[8.4rem] ss:px-[7px] sm:px-[17px] pb-4 relative rounded-[20px] bg-db-gradient to-base">
         {/* Image */}
         <img className="rounded-[15px] object-cover" src={tasty.TastyImage} alt="not-showing" />
-        <img className="ss:w-5 ss:h-5 sm:w-[48px] sm:h-[48px] absolute top-[10%] right-[9%]" src={tasty.isLiked ? icons.love : icons.grayLove} alt="love" />
-
+        <img className="loveIcon absolute right-[9%] top-[10%]" src={tasty.isLiked ? icons.love : icons.grayLove} alt="love" />
         {/* description and Icons */}
         <div className="my-4">
-          <h1 className="ss:text-[9px] sm:text-[20px] lg:text-[27px] font-semibold">{tasty.description}</h1>
+          <h1 className="ss:text-[9px] sm:text-[20px] lg:text-[26px] font-semibold">{tasty.description}</h1>
           <div className="flex gap-[15px] mt-8">
             {icons.timer && (
               <div className="flexCenter gap-[5px]">

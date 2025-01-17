@@ -177,43 +177,42 @@ export const foodieSocialsCard = [
 
 export const moreRecipes = [
   {
-    recipeImage: "../src/assets/images/fruit-salad.jpg",
+    recipeImage: images.fruitSalad,
     isLiked: true,
     description: "Mixed Tropical Fruit Salad with Superfood Boosts"
   },
   {
-    recipeImage: "../src/assets/images/wagyu-beef.jpg",
+    recipeImage: images.wagyuBeef,
     isLiked: false,
     description: "Big and Juicy Wagyu Beef Cheeseburger"
   },
   {
-    recipeImage: "../src/assets/images/asparagus.jpg",
+    recipeImage: images.asparagus,
     isLiked: true,
     description: "Healthy Japanese Fried Rice with Asparagus"
   },
   {
-    recipeImage: "../src/assets/images/taco-meat.jpg",
+    recipeImage: images.tacoMeat,
     isLiked: false,
     description: "Cauliflower Walnut Vegetarian Taco Meat"
   },
   {
-    recipeImage: "../src/assets/images/mustard.jpg",
+    recipeImage: images.mustard,
     isLiked: true,
-    description: "Chicken Meatballs with Cream Cheese"
+    description: "Rainbow Chicken Salad with Almond Honey Mustard Dressing"
   },
   {
-    recipeImage: "../src/assets/images/sandwich.jpg",
+    recipeImage: images.sandwich,
     isLiked: false,
     description: "Barbeque Spicy Sandwiches with Chips"
   },
   {
-    recipeImage: "../src/assets/images/firecracker.jpg",
+    recipeImage: images.firecracker,
     isLiked: false,
     description: "Firecracker Vegan Lettuce Wraps - Spicy!"
   },
   {
-    recipeImage: "../src/assets/images/soup.jpg",
-    isLiked: true,
-    description: "Chicken Ramen Soup with Mushroom"
+    recipeImage: images.soup,
+    description: "Chicken Ramen Soup with Mushroom - the best"
   }
 ]

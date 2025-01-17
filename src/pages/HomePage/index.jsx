@@ -3,9 +3,10 @@ import { icons } from '../../assets/icons';
 import { InstagramIcon, Play } from 'lucide-react';
 import Button from '../../components/Button';
 import CategoryCard from '../../components/CategoryCard';
-import { foodCategories, foodieSocialsCard, tastyFoodOptions } from '../../constants';
+import { foodCategories, foodieSocialsCard, moreRecipes, tastyFoodOptions } from '../../constants';
 import TastyRecipe from '../../components/TastyRecipe';
 import PostCard from '../../components/PostCardBody/PostCard';
+import MoreRecipes from '../../components/MoreRecipes';
 
 const HomePage = () => {
   return (
@@ -61,7 +62,7 @@ const HomePage = () => {
       </section>
 
       {/* Category section */}
-      <section className='w-[90%] flex flex-col gap-20 mx-auto mb-48'>
+      <section className='w-[90%] flex flex-col gap-20 mx-auto mb-32'>
         <div className='flexCenterBetween'>
           <h1 className='heading1'>Categories</h1>
           <Button variant='secondary' className={`min-w-[5px] ss:text-[9px] ss:py-3 ss:px-7 sm:py-5 sm:px-10 sm:text-[16px]`}> View All Categories </Button>
@@ -77,7 +78,7 @@ const HomePage = () => {
       </section>
 
       {/* Tasty Recipe section */}
-      <section className='flexCenter flex-col w-[90%] mb-28'>
+      <section className='flexCenter flex-col w-[90%] mb-32'>
         <h1 className='heading1 mb-4'>
           Simple and tasty recipes
         </h1>
@@ -85,7 +86,7 @@ const HomePage = () => {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed praesentium ea nostrum
           blanditiis neque ut iusto, totam at distinctio, vero fuga
         </p>
-        <div className='grid ss:grid-cols-2 ss:gap-x-[14px] sm:gap-x-[30px] sm:grid-cols-2 lg:grid-cols-3 gap-x-[48px]'>
+        <div className='grid ss:grid-cols-2 ss:gap-x-[14px] sm:gap-x-[30px] sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-[40px]'>
           {tastyFoodOptions.map((tastyFood, index) => (
             <TastyRecipe key={index} tasty={tastyFood} />
           ))}
@@ -113,7 +114,7 @@ const HomePage = () => {
       </section >
 
       {/* Foodie socials section */}
-      <section className="w-full flexCenter flex-col gap-6 bg-foodie-gradient mx-auto">
+      <section className="w-full flexCenter flex-col gap-6 bg-foodie-gradient mx-auto mb-32">
         <h1 className='heading1 ss:text-center'>Check out @foodieland on Instagram</h1>
         <p className='paragraph text-center font-normal lg:w-[890px] mb-4'>
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim enim ad labore et dolore magna minim</p>
@@ -128,7 +129,21 @@ const HomePage = () => {
           </Button>
         </div>
       </section>
-      {/* ss:text-[10px] ss:leading-4 sm:text-[18px] sm:leading-8 lg:text-[15px] lg:leading-6 text-gray-500 */}
+
+      {/* More recipes section */}
+      <section className="w-[90%] flex flex-col ss:gap-10 lg:gap-20 mx-auto mb-32">
+        <div className='flexCenterBetween ss:flex-col sm:items-start lg:flex-row  lg:items-center gap-8'>
+          <h1 className='heading1 max-w-[600px]'>Try this delicious recipe to make your day</h1>
+          <p className='paragraph max-w-[750px]'>
+            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut consectetuipis eiusmod dolore magna aliqut enim ad minim
+          </p>
+        </div>
+        <div className='grid lg:grid-cols-4 sm:gap-x-10 lg:gap-y-14 ss:grid-cols-2 ss:gap-x-[14px] ss:gap-y-[14px]'>
+          {moreRecipes.map((more_recipe, index) =>
+            <MoreRecipes key={index} recipe={more_recipe} />
+          )}
+        </div>
+      </section>
     </div >
   );
 }
