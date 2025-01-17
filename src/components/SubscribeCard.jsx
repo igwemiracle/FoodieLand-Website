@@ -1,29 +1,43 @@
 import { images } from "../assets/images";
 import Button from "./Button";
 
-const Subscribe = () => {
+const SubscribeCard = () => {
   return (
-    <div className="w-[90%] mx-auto mb-28 bg-foodie-blue flex justify-center items-start rounded-[60px]
-      pt-[4rem] pb-10 relative 
+    <div className="w-[90%] mx-auto mb-20 bg-foodie-blue flex justify-center items-start  lg:pt-[4rem] lg:pb-10 relative overflow-hidden ss:rounded-[10px] sm:rounded-[36px] ss:py-4 sm:py-6 lg:rounded-[50px]
       ">
-      <img className="w-[450.54px] h-[400.06px] absolute bottom-0 left-0 rounded-[60px] " src={images.salad} alt="salad" />
-      <div className="flex flex-col items-center gap-5">
-        <h1 className="text-[53px] font-semibold">Deliciousness to your inbox</h1>
-        <p className="w-[725px] text-[16px] text-gray-500 leading-7 text-center">
-          Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+      <img className="object-cover lg:w-[450.54px] lg:h-[400.06px] absolute bottom-0 left-0 rounded-[60px]
+      ss:w-[90px] ss:h-[80px] ss:-bottom-[0] ss:-left-[14px] sm:w-[200px] sm:h-[170px]" src={images.salad} alt="salad" />
+      <div className="flex flex-col items-center ss:gap-2 sm:gap-2 lg:gap-10">
+        <h1 className="ss:text-sm sm:text-2xl lg:text-[48px] font-semibold">Deliciousness to your inbox</h1>
+        <p className="text-gray-500 lg:w-[650px] lg:text-[16px] text-center ss:text-[6px] ss:w-[190px] sm:w-[330px] sm:text-[10px]">
+          Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusm tempor
           incididunt ut labore et dolore magna aliqut enim magna aliqut enim ad minim
         </p>
-        <div className="relative">
-          <input type="email" placeholder="Your email address..." className="w-[580px] h-[80px] mt-12 rounded-[24px] pl-10 focus:outline-none" />
-          <div className="absolute bottom-[0.6rem] right-2">
-            <Button>Subscribe</Button>
+        <div className="relative lg:mt-5">
+          <input
+            type="email"
+            placeholder="Your email address..."
+            className="lg:mt-8 focus:outline-none 
+             ss:w-[120px] ss:h-[22px] ss:rounded-[10px] ss:placeholder:text-[5px] ss:pb-2 ss:pl-2  sm:w-[280px] sm:h-[35px]
+             sm:placeholder:text-[8px] lg:w-[580px] lg:h-[80px] lg:pl-10 lg:rounded-[20px] lg:placeholder:text-[15px]
+           " />
+          <div className="absolute lg:bottom-[0.7rem] lg:right-2 ss:bottom-[3px] ss:right-1 sm:bottom-[6px]">
+            <Button className="ss:px-4 ss:text-[4px] ss:h-4 ss:w-4 ss:rounded-[4px] sm:h-5 sm:w-5 sm:text-[6px] sm:py-3 
+            sm:px-8 lg:py-7 lg:px-16 lg:rounded-[10px]">
+              Subscribe
+            </Button>
           </div>
         </div>
       </div>
-      <img className="w-[100px] h-[150px] absolute object-cover right-[18rem] top-[15rem] " src={images.rucola} alt="rucola" />
-      <img className="object-cover w-[290.06px] h-[355.62] absolute bottom-0 right-0 rounded-[60px]" src={images.egg} alt="egg" />
+      <img className="lg:w-[100px] lg:h-[150px] absolute object-cover lg:right-64 lg:bottom-14
+       ss:w-[30px] ss:h-[30px] ss:bottom-5 ss:right-12 sm:w-[55px] sm:h-[55px] sm:bottom-12 sm:right-24
+      " src={images.rucola} alt="rucola" />
+
+      <img className="object-cover 
+       absolute ss:h-[85px] ss:w-[70px]  ss:bottom-[-29px] ss:-right-[3px] sm:bottom-[-29px] sm:right-[-12px]
+      sm:w-[140px] sm:h-[150px] lg:w-[250px] lg:h-[200px] lg:bottom-0 lg:right-0 " src={images.egg} alt="egg" />
     </div>
   );
 }
 
-export default Subscribe;
+export default SubscribeCard;

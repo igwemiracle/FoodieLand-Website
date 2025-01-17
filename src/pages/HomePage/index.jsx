@@ -7,6 +7,7 @@ import { foodCategories, foodieSocialsCard, moreRecipes, tastyFoodOptions } from
 import TastyRecipe from '../../components/TastyRecipe';
 import PostCard from '../../components/PostCardBody/PostCard';
 import MoreRecipes from '../../components/MoreRecipes';
+import SubscribeCard from '../../components/SubscribeCard';
 
 const HomePage = () => {
   return (
@@ -131,7 +132,7 @@ const HomePage = () => {
       </section>
 
       {/* More recipes section */}
-      <section className="w-[90%] flex flex-col ss:gap-10 lg:gap-20 mx-auto mb-32">
+      <section className="w-[90%] flex flex-col ss:gap-10 lg:gap-20 mx-auto mb-28">
         <div className='flexCenterBetween ss:flex-col sm:items-start lg:flex-row  lg:items-center gap-8'>
           <h1 className='heading1 max-w-[600px]'>Try this delicious recipe to make your day</h1>
           <p className='paragraph max-w-[750px]'>
@@ -144,6 +145,9 @@ const HomePage = () => {
           )}
         </div>
       </section>
+
+      {/* Subscribe card section */}
+      <SubscribeCard />
     </div >
   );
 }
