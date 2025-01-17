@@ -12,7 +12,7 @@ import SubscribeCard from '../../components/SubscribeCard';
 const HomePage = () => {
   return (
     <div className='gridCenter'>
-      <section className='flex flex-col-reverse w-[90%] rounded-[4rem] mx-auto my-32 overflow-hidden lg:flex-row'>
+      <section className='flex flex-col w-[90%] rounded-[4rem] mx-auto my-32 overflow-hidden lg:flex-row'>
         <div className='basis-2/4 flex-1 flex flex-col bg-foodie-blue ss:px-6 ss:py-12 sm:p-14 gap-8 '>
           <p className='flexCenter buttonWidthHeight gap-3 bg-white rounded-3xl whitespace-nowrap  ss:text-xs ss:py-2 sm:text-[16px] sm:py-4'>
             <span className='ss:text-[18px] sm:text-[24px]'>
