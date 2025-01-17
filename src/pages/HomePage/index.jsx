@@ -138,7 +138,7 @@ const HomePage = () => {
             Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut consectetuipis eiusmod dolore magna aliqut enim ad minim
           </p>
         </div>
-        <div className='grid lg:grid-cols-4 sm:gap-x-10 lg:gap-y-14 ss:grid-cols-2 ss:gap-x-[14px] ss:gap-y-[14px]'>
+        <div className='grid ss:grid-cols-2  ss:gap-x-[14px] ss:gap-y-[14px] sm:gap-x-10 sm:gap-y-14 lg:grid-cols-4  lg:gap-y-14 '>
           {moreRecipes.map((more_recipe, index) =>
             <MoreRecipes key={index} recipe={more_recipe} />
           )}
