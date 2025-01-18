@@ -216,3 +216,41 @@ export const moreRecipes = [
     description: "Chicken Ramen Soup with Mushroom - the best"
   }
 ]
+
+export const nutritionInformation = [
+  {
+    nutrientsName: "Calories",
+    amount: "219.9 kal"
+  },
+  {
+    nutrientsName: "Total Fat",
+    amount: "10.7 g"
+  },
+  {
+    nutrientsName: "Protein",
+    amount: "7.9 g"
+  },
+  {
+    nutrientsName: "Carbohydrate",
+    amount: "22.3 g"
+  },
+  {
+    nutrientsName: "Calories",
+    amount: "37.4 mg"
+  },
+]
+
+export const ListItems = [
+  {
+    listItem: "Lorem ipsum dolor sit amet"
+  },
+  {
+    listItem: "Lorem ipsum dolor sit amet"
+  },
+  {
+    listItem: "Lorem ipsum dolor sit amet"
+  },
+  {
+    listItem: "Lorem ipsum dolor sit amet"
+  },
+]

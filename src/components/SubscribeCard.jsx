@@ -27,11 +27,8 @@ const SubscribeCard = () => {
           <input
             type="email"
             placeholder="Your email address..."
-            className="focus:outline-none ss:py-2 ss:overflow-hidden
-             ss:pr-16 ss:text-[5px] ss:mt-4 sm:mt-6
-             ss:w-[120px] ss:h-[22px] ss:rounded-[5px] ss:placeholder:text-[5px] ss:pb-2 ss:pl-2  sm:min-w-[280px] sm:h-[35px]
-             sm:placeholder:text-[8px] lg:w-[580px] lg:h-[80px] lg:pl-10 lg:rounded-[20px] lg:placeholder:text-[15px] lg:mt-8 lg:text-[15px] 
-           "
+            className="focus:outline-none ss:py-2 ss:overflow-hidden ss:pr-10 ss:text-[8px] ss:mt-4 sm:mt-4 ss:w-[120px] ss:h-[22px] ss:rounded-[5px]  ss:pb-2 ss:pl-2  sm:w-[290px] sm:h-[35px] sm:text-[16px] lg:w-[580px] lg:h-[80px]
+            lg:pl-10 lg:rounded-[20px] lg:mt-8 lg:text-[25px]"
 
           />
           <div className="absolute lg:bottom-[0.7rem] lg:right-2 ss:bottom-[3px] ss:right-1 sm:bottom-[6px]">

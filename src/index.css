@@ -37,8 +37,12 @@
     @apply ss:text-xl ss:leading-6 sm:text-4xl sm:leading-[42px] lg:text-5xl lg:leading-[58px] font-semibold;
   }
 
+  .SharePrint {
+    @apply bg-foodie-blue rounded-[50%] sm:w-16 sm:h-16 flexCenter ss:w-12 ss:h-12;
+  }
+
   .loveIcon {
-    @apply ss:w-5 ss:h-5 sm:w-[48px] sm:h-[48px]
+    @apply ss:w-5 ss:h-5 sm:w-[48px] sm:h-[48px];
   }
 
   .buttonWidthHeight {
@@ -46,7 +50,7 @@
   }
 
   .flex-space-border-b {
-    @apply flex justify-between border-0 border-b border-solid border-gray-200 pb-5;
+    @apply flex items-center justify-between border-0 border-b border-solid border-gray-200 pb-5;
   }
   .text-m-gray {
     @apply text-gray-500 font-medium text-lg;
