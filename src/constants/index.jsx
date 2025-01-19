@@ -240,17 +240,48 @@ export const nutritionInformation = [
   },
 ]
 
-export const ListItems = [
+export const directionsData = [
   {
-    listItem: "Lorem ipsum dolor sit amet"
+    id: 1,
+    title: "1. Lorem ipsum dolor sit amet",
+    description: [
+      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.tempora incidunt ut labore et dolore liquam quaerat voluptatem.tempora incidunt ut labore et voluptatem",
+      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.tempora incidunt ut labore et dolore liquam quaerat voluptatem.tempora incidunt ut labore et voluptatem",
+    ],
+    image: images.femaleChef,
   },
   {
-    listItem: "Lorem ipsum dolor sit amet"
+    id: 2,
+    title: "2. Lorem ipsum dolor sit amet",
+    description: [
+      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    ],
+    image: null,
   },
   {
-    listItem: "Lorem ipsum dolor sit amet"
+    id: 3,
+    title: "3. Lorem ipsum dolor sit amet",
+    description: [
+      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    ],
+    image: null,
+  },
+];
+
+export const otherFoodRecipe = [
+  {
+    otherImage: images.meat,
+    title: "Chicken Meatball with Creamy Chees...",
+    author: "Andreas Paula"
   },
   {
-    listItem: "Lorem ipsum dolor sit amet"
+    otherImage: images.spag,
+    title: "The Creamiest Creamy Chicken an...",
+    author: "Andreas Paula"
+  },
+  {
+    otherImage: images.fish,
+    title: "The Best Easy One Pot Chicken and Rice",
+    author: "Andreas Paula"
   },
 ]

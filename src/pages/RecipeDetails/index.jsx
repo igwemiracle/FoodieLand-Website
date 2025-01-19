@@ -3,8 +3,9 @@ import { icons } from '../../assets/icons';
 import Subscribe from '../../components/SubscribeCard';
 import AsideFoodieRecipe from '../../components/AsideFoodRecipe';
 import CheckBoxList from '../../components/CheckBoxList';
-import { moreRecipes, nutritionInformation } from '../../constants';
+import { directionsData, moreRecipes, nutritionInformation } from '../../constants';
 import MoreRecipes from '../../components/MoreRecipes';
+import { DirectionItem } from '../../components/DirectionItem';
 
 const RecipeDetails = () => {
   const mainDishItems = ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet",
@@ -12,7 +13,7 @@ const RecipeDetails = () => {
   const forSauce = ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"];
 
   return (
-    <section className="flex items-center flex-col gap-20 mt-16">
+    <section className="flex items-center flex-col gap-10 mt-16">
       <div className="w-[90%] mx-auto">
         {/* First Responsive design  */}
 
@@ -96,6 +97,29 @@ const RecipeDetails = () => {
       </div>
 
       {/* Third Responsive design */}
+      <div className="w-[90%] mx-auto flex ss:gap-5 ss:flex-col-reverse">
+        <div className="basis-[50%] flex flex-col gap-10">
+          <h1 className="heading1">Ingredients</h1>
+
+          <CheckBoxList checkboxItems={mainDishItems} title="For main dish" />
+          <CheckBoxList checkboxItems={forSauce} title="For the sauce" />
+
+          <form className="flex flex-col gap-8 mt-[8.5rem]">
+            <p className="heading1">Directions</p>
+            {directionsData.map((direction) => (
+              <DirectionItem
+                key={direction.id}
+                title={direction.title}
+                description={direction.description}
+                image={direction.image}
+              />
+            ))}
+          </form>
+
+        </div>
+
+        <AsideFoodieRecipe />
+      </div>
 
     </section >
   );

@@ -3,11 +3,11 @@ import React from "react";
 const CheckBoxList = ({ checkboxItems, title }) => {
   return (
     <form className="flex flex-col gap-8">
-      <p className="text-2xl font-semibold">{title}</p>
+      <p className="text-2xl ss:text-[12px] ss:leading-5 font-semibold">{title}</p>
       {checkboxItems.map((item, index) => (
         <div key={index} className="flex-item-c-border-b">
           <input type="checkbox" className="peer input-checkbox" />
-          <label className="peer-checked:line-through peer-checked:text-gray-200 cursor-pointer">
+          <label className="ss:text-[8px] peer-checked:line-through peer-checked:text-gray-200 cursor-pointer paragraph">
             {item}
           </label>
         </div>
