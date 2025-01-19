@@ -60,7 +60,7 @@
   }
 
   .input-checkbox {
-    @apply sm:w-6 sm:h-6 appearance-none border-[1px] border-[#DBE2E5] rounded-full checked:bg-black checked:border-black checked:before:content-['✓'] checked:before:text-white checked:before:flex checked:before:items-center checked:before:justify-center ss:w-3 ss:h-3;
+    @apply sm:w-6 sm:h-6 appearance-none border-[1px] border-[#DBE2E5] rounded-full checked:bg-black checked:border-black checked:before:content-['✓'] checked:before:text-white checked:before:flex checked:before:items-center checked:before:justify-center ss:w-4 ss:h-4;
   }
 
   .direction-input-checkbox {
