@@ -26,7 +26,7 @@ const PageRoutes = () => (
   <Routes>
     <Route path="/" element={<HomePage />} />
     <Route path="/recipes" element={<RecipeDetails />} />
-    <Route path="/blogs" element={<BlogList />} />
+    <Route path="/bloglist" element={<BlogList />} />
     <Route path="/about" element={<AboutUs />} />
     <Route path="/contact" element={<Paginate />} />
     <Route path="*" element={<NotFound />} />

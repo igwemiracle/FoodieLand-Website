@@ -15,8 +15,6 @@ const RecipeDetails = () => {
   return (
     <section className="flex items-center flex-col gap-10 mt-16">
       <div className="w-[90%] mx-auto">
-        {/* First Responsive design  */}
-
         <div className="flexCenterBetween mx-[auto] my-20 ss:items-start">
           <div className="flex flex-col gap-7">
             <h1 className="ss:text-[20px] ss:leading-[28px] sm:text-[45px] sm:leading-[70px] lg:text-[69px] font-semibold">
@@ -71,7 +69,6 @@ const RecipeDetails = () => {
           </div>
         </div>
 
-        {/* Second Responsive design */}
         <div className="flex flex-wrap justify-between mx-[auto] my-20 ss:gap-3">
           <img className="lg:basis-[70%] object-cover" src={images.playMeal} alt="playMeal" />
           <div className="lg:basis-[26%] ss:basis-[45%] bg-foodie-blue 
@@ -96,7 +93,6 @@ const RecipeDetails = () => {
         </div>
       </div>
 
-      {/* Third Responsive design */}
       <div className="w-[90%] mx-auto flex ss:gap-8 mb-24">
         <div className="ss:basis-[50%] lg:basis-[70%] flex flex-col lg:gap-10">
           <div>
@@ -123,10 +119,8 @@ const RecipeDetails = () => {
         <AsideFoodieRecipe />
       </div>
 
-      {/* Fourth Responsive design */}
       <Subscribe />
 
-      {/* Fifth Responsive design */}
       <div className="w-[90%] mx-auto mb-36">
         <h1 className="heading1 text-center mb-20">You may like these recipe too</h1>
         <div className="grid ss:grid-cols-2  ss:gap-x-[14px] ss:gap-y-[14px] sm:gap-x-10 sm:gap-y-14 lg:grid-cols-4  lg:gap-y-14">

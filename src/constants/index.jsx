@@ -15,7 +15,7 @@ export const navLinks = [
   {
     id: "blog_id",
     title: "Blog",
-    path: "/blog"
+    path: "/bloglist"
   },
   {
     id: "contact_id",
