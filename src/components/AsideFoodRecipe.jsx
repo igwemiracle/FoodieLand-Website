@@ -4,8 +4,8 @@ import { otherFoodRecipe } from "../constants";
 const AsideFoodieRecipe = () => {
   return (
     <aside className="basis-[45%] flex flex-col gap-6">
-      <h1 className="heading1">Other Recipe</h1>
-      <div className="flex flex-col gap-5 ss:gap-3 ss:grid ss:grid-cols-2">
+      <h1 className="ss:text-sm font-semibold">Other Recipe</h1>
+      <div className="flex flex-col gap-5 ss:gap-3">
         {otherFoodRecipe.map((otherRecipe, index) => (
           <div key={index} className="flex lg:flex-row lg:gap-12  items-center ss:flex-col ss:gap-2 pr-2">
             <img className="flex-shrink-0 w-[230px] h-[120px] object-cover rounded-3xl" src={otherRecipe.otherImage} alt="meat" />

@@ -76,7 +76,7 @@ const RecipeDetails = () => {
           <img className="lg:basis-[70%] object-cover" src={images.playMeal} alt="playMeal" />
           <div className="lg:basis-[26%] ss:basis-[45%] bg-foodie-blue 
            lg:px-8 ss:p-4 sm:p-6 lg:rounded-[30px] ss:rounded-[20px]">
-            <h1 className="sm:text-2xl font-semibold ss:text-[8px] ss:leading-3">Nutrition Information</h1>
+            <h1 className="sm:text-2xl font-semibold ss:text-[9px] ss:leading-3">Nutrition Information</h1>
             <div className="flex flex-col gap-5 mt-7 font-medium">
               {nutritionInformation.map((item, index) => (
                 <div key={index} className="flex-space-border-b">
@@ -97,9 +97,9 @@ const RecipeDetails = () => {
       </div>
 
       {/* Third Responsive design */}
-      <div className="w-[90%] mx-auto flex ss:gap-5 ss:flex-col-reverse">
+      <div className="w-[90%] mx-auto flex ss:gap-10">
         <div className="basis-[50%] flex flex-col gap-10">
-          <h1 className="heading1">Ingredients</h1>
+          <h1 className="ss:text-sm font-semibold">Ingredients</h1>
 
           <CheckBoxList checkboxItems={mainDishItems} title="For main dish" />
           <CheckBoxList checkboxItems={forSauce} title="For the sauce" />

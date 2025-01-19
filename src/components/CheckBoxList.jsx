@@ -7,7 +7,7 @@ const CheckBoxList = ({ checkboxItems, title }) => {
       {checkboxItems.map((item, index) => (
         <div key={index} className="flex-item-c-border-b">
           <input type="checkbox" className="peer input-checkbox" />
-          <label className="ss:text-[8px] peer-checked:line-through peer-checked:text-gray-200 cursor-pointer paragraph">
+          <label className="ss:text-[6px] peer-checked:line-through peer-checked:text-gray-200 cursor-pointer">
             {item}
           </label>
         </div>

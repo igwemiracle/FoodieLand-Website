@@ -10,11 +10,11 @@ export function DirectionItem({ title, description, image }) {
       <div className="flex items-center justify-center mt-1">
         <input className="peer input-checkbox" type="checkbox" />
       </div>
-      <label className="flex flex-col gap-8">
-        <h1 className="text-2xl ss:text-[12px] ss:leading-5 font-semibold">{title}</h1>
+      <label className="flex flex-col gap-2">
+        <h1 className="text-2xl ss:text-[6px] ss:leading-5 font-semibold">{title}</h1>
         {description.map((text, index) => (
           <React.Fragment key={index}>
-            <p className="paragraph">{text}</p>
+            <p className="ss:text-[6px] text-gray-500">{text}</p>
             {image && index === 0 && <img className='object-cover ' src={image} alt="direction" />}
           </React.Fragment>
         ))}
