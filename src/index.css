@@ -56,11 +56,11 @@
     @apply text-gray-500 font-medium text-lg;
   }
   .flex-item-c-border-b {
-    @apply flex items-center lg:gap-6 ss:gap-2 border-b border-solid border-gray-200 pb-7;
+    @apply flex items-center lg:gap-6 ss:gap-2 sm:gap-4 border-b border-solid border-gray-200 pb-7;
   }
 
   .input-checkbox {
-    @apply sm:w-6 sm:h-6 appearance-none border-[1px] border-[#DBE2E5] rounded-full checked:bg-black checked:border-black checked:before:content-['✓'] checked:before:text-white checked:before:flex checked:before:items-center checked:before:justify-center ss:w-4 ss:h-4;
+    @apply sm:w-6 sm:h-6 appearance-none border-[1px] border-gray-400 rounded-full checked:bg-black checked:border-black checked:before:content-['✓'] checked:before:text-white checked:before:flex checked:before:items-center checked:before:justify-center ss:w-4 ss:h-4;
   }
 
   .direction-input-checkbox {

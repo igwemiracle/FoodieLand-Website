@@ -98,15 +98,15 @@ const RecipeDetails = () => {
 
       {/* Third Responsive design */}
       <div className="w-[90%] mx-auto flex ss:gap-8">
-        <div className="basis-[50%] flex flex-col lg:gap-10">
+        <div className="ss:basis-[50%] lg:basis-[70%] flex flex-col lg:gap-10">
           <div>
-            <h1 className="ss:text-sm sm:text-2xl font-semibold">Ingredients</h1>
+            <h1 className="ss:text-sm sm:text-2xl lg:text-3xl font-semibold">Ingredients</h1>
 
             <CheckBoxList checkboxItems={mainDishItems} title="For main dish" />
             <CheckBoxList checkboxItems={forSauce} title="For the sauce" />
           </div>
 
-          <form className="flex flex-col gap-8 mt-[8.5rem]">
+          <form className="flex flex-col gap-8 ss:mt-[3rem] sm:mt-[26rem] lg:mt-[18rem]">
             <p className="heading1">Directions</p>
             {directionsData.map((direction) => (
               <DirectionItem

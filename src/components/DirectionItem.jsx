@@ -6,7 +6,7 @@ import { directionsData } from "../constants";
 
 export function DirectionItem({ title, description, image }) {
   return (
-    <div className="flex items-start justify-center lg:gap-7 ss:gap-2 border-0 border-b border-solid border-gray-200 pb-8">
+    <div className="flex items-start justify-center lg:gap-7 ss:gap-2 sm:gap-4 border-0 border-b border-solid border-gray-200 pb-8">
       <div className="flex items-center justify-center mt-[2px]">
         <input className="peer input-checkbox" type="checkbox" />
       </div>
