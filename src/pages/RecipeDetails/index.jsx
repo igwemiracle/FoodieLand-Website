@@ -97,7 +97,7 @@ const RecipeDetails = () => {
       </div>
 
       {/* Third Responsive design */}
-      <div className="w-[90%] mx-auto flex ss:gap-8">
+      <div className="w-[90%] mx-auto flex ss:gap-8 mb-24">
         <div className="ss:basis-[50%] lg:basis-[70%] flex flex-col lg:gap-10">
           <div>
             <h1 className="ss:text-sm sm:text-2xl lg:text-3xl font-semibold">Ingredients</h1>
@@ -123,6 +123,20 @@ const RecipeDetails = () => {
         <AsideFoodieRecipe />
       </div>
 
+      {/* Fourth Responsive design */}
+      <Subscribe />
+
+      {/* Fifth Responsive design */}
+      <div className="w-[90%] mx-auto mb-36">
+        <h1 className="text-4xl font-semibold text-center mb-20">You may like these recipe too</h1>
+        <div className="grid ss:grid-cols-2  ss:gap-x-[14px] ss:gap-y-[14px] sm:gap-x-10 sm:gap-y-14 lg:grid-cols-4  lg:gap-y-14">
+          {moreRecipes.slice(0, 4).map((recipe, index) => (
+            <MoreRecipes key={index} recipe={recipe} />
+          )
+
+          )}
+        </div>
+      </div>
     </section >
   );
 }
