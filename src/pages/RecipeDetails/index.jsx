@@ -128,7 +128,7 @@ const RecipeDetails = () => {
 
       {/* Fifth Responsive design */}
       <div className="w-[90%] mx-auto mb-36">
-        <h1 className="text-4xl font-semibold text-center mb-20">You may like these recipe too</h1>
+        <h1 className="heading1 text-center mb-20">You may like these recipe too</h1>
         <div className="grid ss:grid-cols-2  ss:gap-x-[14px] ss:gap-y-[14px] sm:gap-x-10 sm:gap-y-14 lg:grid-cols-4  lg:gap-y-14">
           {moreRecipes.slice(0, 4).map((recipe, index) => (
             <MoreRecipes key={index} recipe={recipe} />
