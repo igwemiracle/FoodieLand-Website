@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className='h-[100vh]'>
-      <Pagination />
+      Hi Contact form
     </div>
   );
 }

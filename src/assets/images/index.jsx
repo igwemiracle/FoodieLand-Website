@@ -39,11 +39,17 @@ import dessert from './dessert.png'
 import lunch from './lunch.png'
 import chocolate from './chocolate.png'
 import menu from './menu.png'
-
+import chefGuide from './chefGuide.png'
+import chive from './chive.png'
+import lasagna from './lasagna.png'
+import noodles from './noodles.png'
+import hiring from './hiring.png'
+import plantain from './plantain.png'
+import foxSalad from './foxSalad.png'
 
 export const images = {
   ads, asparagus, chef_thumbs_up, chicken_meatball, creamie, egg, femaleChef,
   firecracker, fish, foodie, fruitSalad, hamburger, salad, leftImg, rightImg, maaria, maleChef,
-  mayonnasie, meat, meatBall, mustard, onions, orangeFruit, playMeal, riceFish, rucola, sandwich, soup, spag,
-  straw, strawberry, tacoMeat, vegetables, wagyuBeef, breakfast, vegan, beefmeat, dessert, lunch, chocolate, menu
+  mayonnasie, meat, meatBall, mustard, onions, orangeFruit, playMeal, riceFish, rucola, sandwich, soup, spag, straw, strawberry, tacoMeat, vegetables, wagyuBeef, breakfast, vegan, beefmeat, dessert,
+  lunch, chocolate, menu, noodles, chefGuide, chive, lasagna, hiring, plantain, foxSalad
 };

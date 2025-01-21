@@ -1,13 +1,8 @@
 import { images } from '../../assets/images';
 import { icons } from '../../assets/icons';
 import { InstagramIcon, Play } from 'lucide-react';
-import Button from '../../components/Button';
-import CategoryCard from '../../components/CategoryCard';
 import { foodCategories, foodieSocialsCard, moreRecipes, tastyFoodOptions } from '../../constants';
-import TastyRecipe from '../../components/TastyRecipe';
-import PostCard from '../../components/PostCardBody/PostCard';
-import MoreRecipes from '../../components/MoreRecipes';
-import SubscribeCard from '../../components/SubscribeCard';
+import { Button, CategoryCard, MoreRecipes, PostCard, SubscribeCard, TastyRecipe } from '../../components';
 
 const HomePage = () => {
   return (
@@ -122,6 +117,7 @@ const HomePage = () => {
         <div className="w-[90%] grid ss:grid-cols-2 ss:gap-y-8 sm:gap-y-14 lg:grid-cols-4 gap-6">
           {foodieSocialsCard.map((post, index) => (
             <PostCard key={index} post={post} />
+
           ))}
         </div>
         <div className='my-16'>

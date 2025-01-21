@@ -1,24 +1,14 @@
-import AsideFoodieRecipe from "./AsideFoodRecipe";
-import Button from "./Button";
-import CategoryCard from "./CategoryCard";
-import IsMobileHeader from "./IsMobileHeader"
-import MoreRecipes from "./MoreRecipes";
-import Pagination from "./Pagination";
-import SocialIcons from "./SocialIcons";
-import Subscribe from "./SubscribeCard";
-import TastyRecipe from "./TastyRecipe";
-import PostCardBody from "./PostCardBody"
+export { default as AsideFoodieRecipe } from "./AsideFoodRecipe";
+export { default as Button } from "./Button";
+export { default as CategoryCard } from "./CategoryCard";
+export { default as IsMobileHeader } from "./IsMobileHeader";
+export { default as MoreRecipes } from "./MoreRecipes";
+export { default as Pagination } from "./Pagination";
+export { default as SocialIcons } from "./SocialIcons";
+export { default as SubscribeCard } from "./SubscribeCard";
+export { default as TastyRecipe } from "./TastyRecipe";
+export { default as InputField } from "./InputField";
+export { default as DirectionItem } from "./DirectionItem";
+export { default as PostCard } from "./PostCardBody/PostCard";
+export { default as BlogCard } from "./BlogCard"
 
-
-export {
-  AsideFoodieRecipe,
-  Button,
-  CategoryCard,
-  IsMobileHeader,
-  MoreRecipes,
-  Pagination,
-  SocialIcons,
-  Subscribe,
-  TastyRecipe,
-  PostCardBody
-}

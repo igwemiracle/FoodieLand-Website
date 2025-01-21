@@ -17,9 +17,14 @@ import share from './share.svg'
 import print from './printer.svg'
 import hotRecipe from './hotRecipe.svg'
 import Foodieland from './Foodieland.svg'
-
+import albert from './albert.svg'
+import henry from './henry.svg'
+import leslie from './leslie.svg'
+import robert from './robert.svg'
+import russell from './russell.svg'
+import wade from './wade.svg'
 
 export const icons = {
-  insta, comment, verify, profile, more, save, love, messenger, heart, Oval, fork, timer, smith, badge, grayLove, share,
-  hotRecipe, Foodieland, print
+  insta, comment, verify, profile, more, save, love, messenger, heart, Oval, fork, timer, smith, badge, grayLove, share, hotRecipe, Foodieland, print, albert, henry, leslie, robert, russell, wade
+
 }

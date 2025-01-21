@@ -13,9 +13,10 @@ module.exports = {
     },
     extend: {
       screens: {
-        ss: '303px', // For ultra-small screens (optional)
-        lg: '1200px', // Adjusted large breakpoint
-        xxl: '1700px' // Extra large breakpoint
+        ss: '303px',
+        md: '640px',
+        lg: '1200px',
+        xxl: '1700px',
       },
       colors: {
         'foodie-blue': '#e7fafe', // Custom blue color

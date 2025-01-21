@@ -1,3 +1,4 @@
+import { icons } from "../assets/icons";
 import { images } from "../assets/images";
 
 
@@ -283,5 +284,56 @@ export const otherFoodRecipe = [
     otherImage: images.fish,
     title: "The Best Easy One Pot Chicken and Rice",
     author: "Andreas Paula"
+  },
+]
+
+export const blogListData = [
+  {
+    BlogImage: images.noodles,
+    title: "Crochet Projects for Noodle Lovers",
+    description: "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim dolore dolore magna aliqut enim ",
+    profile: icons.wade,
+    username: "Wade Warren",
+    date: "12 November 2021"
+  },
+  {
+    BlogImage: images.foxSalad,
+    title: "10 Vegetarian Recipes To Eat This Month",
+    description: "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim dolore dolore magna aliqut enim",
+    profile: icons.robert,
+    username: "Robert Fox",
+    date: "12 November 2021"
+  },
+  {
+    BlogImage: images.chefGuide,
+    title: "Full Guide to Becoming a Professional Chef",
+    description: "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim dolore dolore magna aliqut enim",
+    profile: icons.russell,
+    username: "Dianne Russell",
+    date: "12 November 2021"
+  },
+  {
+    BlogImage: images.lasagna,
+    title: "Simple & Delicious Vegetarian Lasagna",
+    description: "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim dolore dolore magna aliqut enim",
+    profile: icons.leslie,
+    username: "Leslie Alexander",
+    date: "12 November 2021"
+  },
+  {
+    BlogImage: images.plantain,
+    title: "Plantain and Pinto Stew with Aji Verde",
+    description: "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim dolore dolore magna aliqut enim",
+    profile: icons.henry,
+    username: "Courtney Henry",
+    date: "12 November 2021"
+  },
+  {
+    BlogImage: images.hiring,
+    title: "We're Hiring a Communications Assistant!",
+    description: "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim dolore dolore magna aliqut enim",
+    profile: icons.albert,
+    username: "Albert Flores",
+    date: "12 November 2021"
   },
 ]

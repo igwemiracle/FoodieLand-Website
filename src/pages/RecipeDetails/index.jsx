@@ -93,7 +93,7 @@ const RecipeDetails = () => {
         </div>
       </div>
 
-      <div className="w-[90%] mx-auto flex ss:gap-8 mb-24">
+      <div className="w-[90%] mx-auto flex ss:gap-8 mb-20">
         <div className="ss:basis-[50%] lg:basis-[70%] flex flex-col lg:gap-10">
           <div>
             <h1 className="ss:text-sm sm:text-2xl lg:text-3xl font-semibold">Ingredients</h1>
@@ -116,7 +116,7 @@ const RecipeDetails = () => {
 
         </div>
 
-        <AsideFoodieRecipe />
+        <AsideFoodieRecipe title={`Other Recipe`} />
       </div>
 
       <Subscribe />

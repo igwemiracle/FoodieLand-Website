@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Pagination = () => {
+export default function Pagination() {
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = 10;
 
@@ -49,20 +49,20 @@ const Pagination = () => {
 
   return (
     <div className="text-center p-4">
-      <div className="page-content border border-gray-300 rounded-lg p-6 max-w-lg mx-auto">
+      {/* <div className="page-content border border-gray-300 rounded-lg p-6 max-w-lg mx-auto">
         Page {currentPage} Content
-      </div>
+      </div> */}
 
-      <ul className="pagination flex justify-center items-center space-x-2 mt-4">
+      <ul className="pagination flex justify-center items-center space-x-4 mt-4">
 
         {getVisiblePages().map((page, index) => (
           <li key={index}>
             {page === '...' ? (
-              <span className="px-3 py-1 border rounded bg-gray-200 cursor-default">...</span>
+              <span className="w-[70px] h-[70px] border rounded-[15px] cursor-default px-6 py-6">...</span>
             ) : (
               <button
                 onClick={() => changePage(page)}
-                className={`px-3 py-1 border rounded ${currentPage === page ? 'bg-black text-white' : 'hover:bg-black hover:text-white'}`}
+                className={`w-[70px] h-[70px] border rounded-[15px] ${currentPage === page ? 'bg-black text-white' : 'hover:bg-black hover:text-white'}`}
               >
                 {page}
               </button>
@@ -73,7 +73,7 @@ const Pagination = () => {
         <li>
           <button
             onClick={() => changePage(currentPage + 1)}
-            className={`px-3 py-1 border rounded ${currentPage === totalPages ? 'text-gray-400 cursor-not-allowed' : 'hover:bg-black hover:text-white'}`}
+            className={`w-[70px] h-[70px] border rounded-[15px] ${currentPage === totalPages ? 'text-gray-400 cursor-not-allowed' : 'hover:bg-black hover:text-white'}`}
             disabled={currentPage === totalPages}
           >
             &raquo;
@@ -83,5 +83,3 @@ const Pagination = () => {
     </div>
   );
 };
-
-export default Pagination;
