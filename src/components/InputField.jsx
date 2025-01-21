@@ -8,8 +8,8 @@ export default function InputField({ children, className, buttonText = "Subscrib
         type="email"
         placeholder={children}
         className={`focus:outline-none  
-        lg:pl-10 lg:pr-[11rem] lg:rounded-[20px] lg:placeholder:text-[14px] lg:text-[22px] lg:w-[580px] lg:h-[80px]
-        ss:w-[130px] ss:h-[22px] ss:pl-3 ss:pr-[2.3rem] ss:rounded-[5px] ss:text-[5px] ss:placeholder:text-[4px]
+        lg:pl-10 lg:pr-[11rem] lg:rounded-[20px] lg:placeholder:text-[18px] lg:text-[22px] lg:w-[580px] lg:h-[80px]
+        ss:w-[130px] ss:h-[22px] ss:pl-3 ss:pr-[2.3rem] ss:rounded-[5px] ss:text-[6px] ss:placeholder:text-[6px]
         md:w-[270px] md:h-[40px] md:pl-6 md:pr-[5.9rem] md:rounded-[8px] md:text-[11px] md:placeholder:text-[8px]
         sm:w-[350px] sm:h-[50px] sm:pl-7 sm:pr-[7rem] sm:text-[14px] ${className}`}
       />

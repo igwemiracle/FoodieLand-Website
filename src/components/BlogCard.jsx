@@ -15,7 +15,7 @@ const BlogCard = ({ blog }) => {
             <p className="font-bold whitespace-nowrap ss:text-xs sm:text-base">{blog.username}</p>
           </div>
           <div className="h-8 w-[1px] bg-gray-400 ss:hidden lg:block"></div>
-          <p className="text-gray-400 ss:text-[8px] lg:text-[12px] sm:text-[12px]">{blog.date}</p>
+          <p className="text-gray-400 ss:text-[10px] lg:text-[13px] sm:text-[12px]">{blog.date}</p>
         </div>
       </div>
     </div>
