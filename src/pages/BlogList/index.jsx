@@ -9,7 +9,8 @@ const BlogList = () => {
         <p className='paragraph text-center'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore incididunt ut labore et dolore labore et dolore
         </p>
-        <InputField className={`border border-solid border-gray-200 lg:w-[880px] ss:w-[200px] ss:placeholder:text-[8px]`} buttonText="Search">
+        <InputField
+          className={`border border-solid border-gray-200 lg:w-[880px] ss:w-[200px] ss:placeholder:text-[8px] ss:text-[12px]`} buttonText="Search">
           Search article, news or recipe...
         </InputField>
       </section>

@@ -15,7 +15,7 @@ export default function InputField({ children, className, buttonText = "Subscrib
       />
       <Button
         className="absolute lg:top-[12px] lg:right-3 lg:py-7 lg:px-20 lg:rounded-[16px]
-          ss:px-4 ss:text-[4px] ss:h-4 ss:w-4 ss:right-1 ss:top-[8px] ss:rounded-[4px]
+          ss:px-6 ss:text-[4px] ss:h-4 ss:w-4 ss:right-1 ss:top-[8px] ss:rounded-[4px]
           md:px-10 md:text-[6px] md:h-7 md:w-7 md:right-2 md:top-[6px]
           sm:px-12 sm:top-[8px] sm:text-[7px] sm:rounded-[10px]">
         {buttonText}
