@@ -5,7 +5,7 @@ import { blogListData } from '../../constants';
 
 const BlogList = () => {
   return (
-    <div className='flex flex-col gap-20'>
+    <div className='flex flex-col lg:gap-20 ss:gap-10'>
       <section className='flex flex-col items-center gap-4 mt-32 w-[70%] mx-auto'>
         <h1 className='heading1'>Blog & Article</h1>
         <p className='paragraph text-center'>
@@ -17,8 +17,8 @@ const BlogList = () => {
       </section>
 
       <section className='w-[90%] mx-auto'>
-        <div className='flex gap-6'>
-          <div className='basis-[70%] ss:basis-[50%] flex flex-col gap-10'>
+        <div className='flex lg:gap-6 sm:gap-10 ss:gap-6'>
+          <div className='lg:basis-[70%] ss:basis-[50%] flex flex-col gap-10'>
             {blogListData.map((blog, index) => (
               <BlogCard key={index} blog={blog} />
             ))}

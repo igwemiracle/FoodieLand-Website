@@ -13,7 +13,7 @@ const SubscribeCard = () => {
 
   return (
     <div
-      className="w-[90%] mx-auto mb-20 bg-foodie-blue flex justify-center items-start relative overflow-hidden lg:py-20   lg:rounded-[60px] ss:py-4  ss:rounded-[20px] md:py-6 sm:py-8
+      className="w-[90%] mx-auto lg:mb-20 ss:mb-14 bg-foodie-blue flex justify-center items-start relative overflow-hidden lg:py-20   lg:rounded-[60px] ss:py-4  ss:rounded-[20px] md:py-6 sm:py-8
       ">
       <img
         src={images.salad}

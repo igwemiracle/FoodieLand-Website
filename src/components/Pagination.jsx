@@ -48,12 +48,12 @@ export default function Pagination() {
   };
 
   return (
-    <div className="text-center p-4">
+    <div className="">
       {/* <div className="page-content border border-gray-300 rounded-lg p-6 max-w-lg mx-auto">
         Page {currentPage} Content
       </div> */}
 
-      <ul className="pagination flex justify-center items-center lg:gap-4 ss:gap-1 sm:gap-2 mt-4">
+      <ul className="pagination flex justify-center items-center lg:gap-4 ss:gap-1 sm:gap-2 ss:mb-6">
 
         {getVisiblePages().map((page, index) => (
           <li key={index} className='ss:text-[7px] sm:text-[10px] lg:text-[15px]'>

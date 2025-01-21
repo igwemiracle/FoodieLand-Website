@@ -4,7 +4,7 @@ import { otherFoodRecipe } from "../constants";
 const AsideFoodieRecipe = ({ title }) => {
   return (
     <aside className="basis-[45%] flex flex-col gap-6">
-      <h1 className="ss:text-sm sm:text-2xl lg:text-[26px] font-semibold">{title}</h1>
+      <h1 className="ss:text-sm sm:text-2xl lg:text-[34px] font-semibold">{title}</h1>
       <div className="flex flex-col lg:gap-6 ss:gap-3">
         {otherFoodRecipe.map((otherRecipe, index) => (
           <div key={index} className="flex lg:flex-row sm:px-0 lg:gap-12  items-center ss:flex-col ss:gap-2 lg:pr-2">
