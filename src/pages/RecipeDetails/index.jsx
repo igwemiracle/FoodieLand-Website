@@ -13,11 +13,11 @@ const RecipeDetails = () => {
   const forSauce = ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"];
 
   return (
-    <section className="flex items-center flex-col gap-10 mt-16">
+    <div className="flex items-center flex-col gap-10 lg:mt-44 ss:mt-5 sm:mt-28">
       <div className="w-[90%] mx-auto">
         <div className="flexCenterBetween mx-[auto] my-20 ss:items-start">
           <div className="flex flex-col gap-7">
-            <h1 className="ss:text-[20px] ss:leading-[28px] sm:text-[45px] sm:leading-[70px] lg:text-[69px] font-semibold">
+            <h1 className="Header1">
               Health Japanese Fried Rice
             </h1>
             <div className="flex flex-wrap max-w-[800px] justify-between ss:gap-10">
@@ -103,7 +103,7 @@ const RecipeDetails = () => {
           </div>
 
           <form className="flex flex-col gap-8 ss:mt-[3rem] sm:mt-[26rem] lg:mt-[18rem]">
-            <p className="heading1">Directions</p>
+            <h2 className="Header2">Directions</h2>
             {directionsData.map((direction) => (
               <DirectionItem
                 key={direction.id}
@@ -122,7 +122,7 @@ const RecipeDetails = () => {
       <Subscribe />
 
       <div className="w-[90%] mx-auto mb-36">
-        <h1 className="heading1 text-center mb-20">You may like these recipe too</h1>
+        <h2 className="Header2 text-center mb-20">You may like these recipe too</h2>
         <div className="grid ss:grid-cols-2  ss:gap-x-[14px] ss:gap-y-[14px] sm:gap-x-10 sm:gap-y-14 lg:grid-cols-4  lg:gap-y-14">
           {moreRecipes.slice(0, 4).map((recipe, index) => (
             <MoreRecipes key={index} recipe={recipe} />
@@ -131,7 +131,7 @@ const RecipeDetails = () => {
           )}
         </div>
       </div>
-    </section >
+    </div >
   );
 }
 

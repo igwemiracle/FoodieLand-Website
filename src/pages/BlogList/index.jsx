@@ -3,9 +3,11 @@ import { blogListData } from '../../constants';
 
 const BlogList = () => {
   return (
-    <div className='flex flex-col lg:gap-20 ss:gap-10'>
-      <section className='flex flex-col items-center gap-4 mt-32 w-[70%] mx-auto'>
-        <h1 className='heading1'>Blog & Article</h1>
+    <div className='flex flex-col lg:gap-20 ss:gap-10 sm:mt-44 ss:mt-28'>
+      <section className='flex flex-col items-center gap-4 w-[70%] mx-auto'>
+        <h1 className='Header1'>
+          Blog & Article
+        </h1>
         <p className='paragraph text-center'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore incididunt ut labore et dolore labore et dolore
         </p>

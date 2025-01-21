@@ -14,7 +14,7 @@ const HomePage = () => {
               <img src={images.menu} className='ss:w-5 ss:h-5 lg:w-[24px] lg:h-[24px]' alt="show-menu" />
             </span>Hot Recipes
           </p>
-          <h1 className='ss:text-[26px] ss:leading-[35px] sm:text-[50px] sm:leading-[70px] lg:text-[69px] font-semibold'>
+          <h1 className='Header1'>
             Spicy delicious chicken wings
           </h1>
           <p className='paragraph'>
@@ -60,7 +60,7 @@ const HomePage = () => {
       {/* Category section */}
       <section className='w-[90%] flex flex-col gap-20 mx-auto mb-32'>
         <div className='flexCenterBetween'>
-          <h1 className='heading1'>Categories</h1>
+          <h2 className='Header2'>Categories</h2>
           <Button variant='secondary' className={`min-w-[5px] ss:text-[9px] ss:py-3 ss:px-7 sm:py-5 sm:px-10 sm:text-[16px]`}> View All Categories </Button>
         </div>
         <div className='grid lg:grid-cols-6 ss:grid-cols-2 ss:gap-y-10 ss:place-items-center sm:grid-cols-3'>
@@ -75,9 +75,9 @@ const HomePage = () => {
 
       {/* Tasty Recipe section */}
       <section className='flexCenter flex-col w-[90%] mb-32'>
-        <h1 className='heading1 mb-4'>
+        <h2 className='Header2 mb-4'>
           Simple and tasty recipes
-        </h1>
+        </h2>
         <p className="paragraph text-center  max-w-[706px] mb-28">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed praesentium ea nostrum
           blanditiis neque ut iusto, totam at distinctio, vero fuga
@@ -93,8 +93,9 @@ const HomePage = () => {
       <section className="w-[90%] h-auto flex ss:flex-col ss:items-start lg:flex-row lg:items-end mb-32">
         <div className="basis-[40%] flex flex-col lg:gap-[8rem] lg:mb-32 ss:gap-16 ss:mb-8  ">
           <div className='flex flex-col gap-4'>
-            <h1 className='heading1'>
-              Everyone can be a <br />chef in their own kitchen</h1>
+            <h2 className='Header2'>
+              Everyone can be a <br />chef in their own kitchen
+            </h2>
             <p className='paragraph lg:w-[500px] ss:w-[220px]  sm:w-96'>
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore tempor incididunt ut labore et dolore magna ad ad minim
             </p>
@@ -111,7 +112,7 @@ const HomePage = () => {
 
       {/* Foodie socials section */}
       <section className="w-full flexCenter flex-col gap-6 bg-foodie-gradient mx-auto mb-32">
-        <h1 className='heading1 ss:text-center'>Check out @foodieland on Instagram</h1>
+        <h2 className='Header2 ss:text-center'>Check out @foodieland on Instagram</h2>
         <p className='paragraph text-center font-normal lg:w-[890px] mb-4'>
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim enim ad labore et dolore magna minim</p>
         <div className="w-[90%] grid ss:grid-cols-2 ss:gap-y-8 sm:gap-y-14 lg:grid-cols-4 gap-6">
@@ -130,7 +131,7 @@ const HomePage = () => {
       {/* More recipes section */}
       <section className="w-[90%] flex flex-col ss:gap-10 lg:gap-20 mx-auto mb-28">
         <div className='flexCenterBetween ss:flex-col sm:items-start lg:flex-row  lg:items-center gap-8'>
-          <h1 className='heading1 max-w-[600px]'>Try this delicious recipe to make your day</h1>
+          <h2 className='Header2 max-w-[600px]'>Try this delicious recipe to make your day</h2>
           <p className='paragraph max-w-[750px]'>
             Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut consectetuipis eiusmod dolore magna aliqut enim ad minim
           </p>

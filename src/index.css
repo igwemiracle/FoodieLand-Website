@@ -33,7 +33,11 @@
     @apply ss:text-[10px] ss:leading-4 sm:text-[18px] sm:leading-8 lg:text-[15px] lg:leading-6 text-gray-500;
   }
 
-  .heading1 {
+  .Header1 {
+    @apply ss:text-[26px] ss:leading-[35px] sm:text-[50px] sm:leading-[70px] lg:text-[69px] lg:leading-[80px] font-semibold;
+  }
+
+  .Header2 {
     @apply ss:text-xl ss:leading-6 sm:text-4xl sm:leading-[42px] lg:text-5xl lg:leading-[58px] font-semibold;
   }
 
