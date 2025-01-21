@@ -53,16 +53,21 @@ export default function Pagination() {
         Page {currentPage} Content
       </div> */}
 
-      <ul className="pagination flex justify-center items-center space-x-4 mt-4">
+      <ul className="pagination flex justify-center items-center lg:gap-4 ss:gap-1 sm:gap-2 mt-4">
 
         {getVisiblePages().map((page, index) => (
-          <li key={index}>
+          <li key={index} className='ss:text-[7px] sm:text-[10px] lg:text-[15px]'>
             {page === '...' ? (
-              <span className="w-[70px] h-[70px] border rounded-[15px] cursor-default px-6 py-6">...</span>
+              <span className="lg:w-[70px] lg:h-[70px] lg:p-[29px] border lg:rounded-[15px] cursor-default 
+               ss:py-[8px] ss:px-[10px] ss:rounded-[8px]
+               sm:py-[18px] sm:px-[18px] sm:rounded-[10px]">...</span>
             ) : (
               <button
                 onClick={() => changePage(page)}
-                className={`w-[70px] h-[70px] border rounded-[15px] ${currentPage === page ? 'bg-black text-white' : 'hover:bg-black hover:text-white'}`}
+                className={`lg:w-[70px] lg:h-[70px] border rounded-[15px] flex items-center justify-center
+                ss:w-[10px] ss:h-[10px] ss:p-3 ss:rounded-[8px] 
+                sm:w-[14px] sm:h-[14px] sm:p-6 sm:rounded-[10px]
+                ${currentPage === page ? 'bg-black text-white' : 'hover:bg-black hover:text-white'}`}
               >
                 {page}
               </button>
@@ -73,7 +78,10 @@ export default function Pagination() {
         <li>
           <button
             onClick={() => changePage(currentPage + 1)}
-            className={`w-[70px] h-[70px] border rounded-[15px] ${currentPage === totalPages ? 'text-gray-400 cursor-not-allowed' : 'hover:bg-black hover:text-white'}`}
+            className={`lg:w-[70px] lg:h-[70px] border rounded-[15px]
+            ss:w-[10px] ss:h-[10px] ss:p-3 ss:rounded-[8px] flex items-center justify-center 
+            sm:w-[14px] sm:h-[14px] sm:p-6 sm:rounded-[10px]
+            ${currentPage === totalPages ? 'text-gray-400 cursor-not-allowed' : 'hover:bg-black hover:text-white'}`}
             disabled={currentPage === totalPages}
           >
             &raquo;

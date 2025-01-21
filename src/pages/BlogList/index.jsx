@@ -18,7 +18,7 @@ const BlogList = () => {
 
       <section className='w-[90%] mx-auto'>
         <div className='flex gap-6'>
-          <div className='basis-[70%] flex flex-col gap-10'>
+          <div className='basis-[70%] ss:basis-[50%] flex flex-col gap-10'>
             {blogListData.map((blog, index) => (
               <BlogCard key={index} blog={blog} />
             ))}

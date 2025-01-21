@@ -16,7 +16,6 @@ module.exports = {
         ss: '303px',
         md: '640px',
         lg: '1200px',
-        xxl: '1700px',
       },
       colors: {
         'foodie-blue': '#e7fafe', // Custom blue color

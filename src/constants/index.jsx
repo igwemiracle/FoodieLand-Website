@@ -271,7 +271,7 @@ export const directionsData = [
 
 export const otherFoodRecipe = [
   {
-    otherImage: images.meat,
+    otherImage: images.meatBall,
     title: "Chicken Meatball with Creamy Chees...",
     author: "Andreas Paula"
   },
