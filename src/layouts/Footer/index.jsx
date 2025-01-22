@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
 
         <nav className="mt-4 ss:mt-0 lg:flex">
-          <ul className="flex flex-wrap gap-4 sm:gap-6 lg:gap-16 justify-center items-end">
+          <ul className="flex flex-wrap gap-4 sm:gap-6 lg:gap-14 justify-center items-end">
             {navLinks.map((navlink) => (
               <li key={navlink.id}>
                 <Link className="ss:text-xs sm:text-[16px]" to={`${navlink.path}`}>{`${navlink.title}`}</Link>

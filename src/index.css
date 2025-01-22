@@ -53,6 +53,11 @@
     @apply ss:w-32 sm:w-44 sm:h-auto;
   }
 
+  .contactInputField {
+    @apply focus:outline-none mt-2 border border-solid border-gray-400 lg:w-[450px] ss:w-full h-[75px] rounded-[16px]
+    placeholder:text-[18px] pl-5;
+  }
+
   .flex-space-border-b {
     @apply flex items-center justify-between border-0 border-b border-solid border-gray-200 pb-5;
   }

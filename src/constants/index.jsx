@@ -24,9 +24,9 @@ export const navLinks = [
     path: "/contact"
   },
   {
-    id: "about_id",
+    id: "About_id",
     title: "About Us",
-    path: "/about"
+    path: "/blogpost"
   },
 ];
 

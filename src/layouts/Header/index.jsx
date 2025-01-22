@@ -49,7 +49,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="lg:flex hidden">
-            <ul className="flex gap-8">
+            <ul className="flex gap-14">
               {navLinks.map((navlink) => (
                 <li key={navlink.id}>
                   <Link to={`${navlink.path}`}>{`${navlink.title}`}</Link>

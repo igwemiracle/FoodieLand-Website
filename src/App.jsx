@@ -7,8 +7,9 @@ import Footer from './layouts/Footer';
 import "./App.css";
 import { ThemeProvider } from './contexts/ThemeContext';
 import BlogList from './pages/BlogList';
-import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import BlogPost from './pages/BlogPost';
+import ContactPage from './pages/Contact';
 
 
 const App = () => (
@@ -27,8 +28,8 @@ const PageRoutes = () => (
     <Route path="/" element={<HomePage />} />
     <Route path="/recipes" element={<RecipeDetails />} />
     <Route path="/bloglist" element={<BlogList />} />
-    <Route path="/about" element={<AboutUs />} />
-    <Route path="/contact" element={<Contact />} />
+    <Route path="/blogpost" element={<BlogPost />} />
+    <Route path="/contact" element={<ContactPage />} />
     <Route path="*" element={<NotFound />} />
   </Routes>
 );
