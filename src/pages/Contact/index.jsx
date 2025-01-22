@@ -4,7 +4,7 @@ import { moreRecipes } from "../../constants";
 
 const ContactPage = () => {
   return (
-    <div className="sm:mt-48">
+    <div className="ss:mt-28 sm:mt-48">
 
       <div className='flex flex-col items-center gap-10 mx-auto mb-44'>
         <h1 className="Header1">
