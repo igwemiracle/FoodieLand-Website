@@ -3,7 +3,7 @@ import { blogListData } from '../../constants';
 
 const BlogList = () => {
   return (
-    <div className='flex flex-col lg:gap-20 ss:gap-10 sm:mt-44 ss:mt-28'>
+    <div className='flex flex-col lg:gap-20 ss:gap-10 ss:mt-28 sm:mt-48'>
       <section className='flex flex-col items-center gap-4 w-[70%] mx-auto'>
         <h1 className='Header1'>
           Blog & Article

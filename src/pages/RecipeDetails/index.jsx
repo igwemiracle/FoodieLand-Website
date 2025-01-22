@@ -13,9 +13,9 @@ const RecipeDetails = () => {
   const forSauce = ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"];
 
   return (
-    <div className="flex items-center flex-col gap-10 lg:mt-44 ss:mt-5 sm:mt-28">
+    <div className="flex items-center flex-col gap-10 lg:mt-44 ss:mt-28 sm:mt-48">
       <div className="w-[90%] mx-auto">
-        <div className="flexCenterBetween mx-[auto] my-20 ss:items-start">
+        <div className="flexCenterBetween mx-[auto] ss:items-start">
           <div className="flex flex-col gap-7">
             <h1 className="Header1">
               Health Japanese Fried Rice

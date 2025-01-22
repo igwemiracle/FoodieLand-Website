@@ -55,7 +55,7 @@
 
   .contactInputField {
     @apply focus:outline-none mt-2 border border-solid border-gray-400 lg:w-[450px] ss:w-full h-[75px] rounded-[16px]
-    placeholder:text-[18px] pl-5;
+    pl-5 ss:placeholder:text-[10px] lg:placeholder:text-[16px] sm:placeholder:text-[12px];
   }
 
   .flex-space-border-b {
